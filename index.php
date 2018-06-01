@@ -1,6 +1,6 @@
 <!-- html script -->
 <!DOCTYPE html> 
-<html lang="en" id="footer">
+<html lang="en" id="home">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,17 +17,22 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href="css/footer-style.css" rel="stylesheet">
-    <link href="css/navbar-style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     
   </head>
   <body>
 
-    <?php include("assets/part/navbar.php"); ?>
+    <!-- Navbar -->
+    <?php include "assets/view/view_navbar.php"; ?>
+    <!-- Navbar -->
 
 
+    <?php include "assets/view/view_search.php"; ?>
 
-    <?php include("assets/part/footer.php"); ?>
+
+    <!-- Footer -->
+    <?php include "assets/view/view_footer.php"; ?>
+    <!-- Footer -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -35,6 +40,5 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    <script src=""></script>
   </body>
 </html>
