@@ -32,24 +32,26 @@ $carCheckbox =
 
 <!-- Mengisi ruang dibawah Navbar -->
 
-<div class="row" id="filterSearch">
-  <div class="col-sm-4">
+<section>
+  <div class="row" id="filterSearch">
+    <div class="col-sm-4">
 
-    <div class="col-sm-4 col-sm-offset-4">
-      <h3 class="text-center">Filter</h3>
-    </div>
-
-    <?php for ($num = 0; $num < count($carCheckbox); $num++) : ?>
-
-      <div class="col-sm-4 col-sm-offset-2">
-        <input type="checkbox" id="<?= $carCheckbox[$num]['id'] ?>" value="">
-        <label for="<?= $carCheckbox[$num]['id'] ?>" class="checkbox-label"><?= $carCheckbox[$num]['name'] ?></label>
+      <div class="col-sm-4 col-sm-offset-4">
+        <h4 class="text-center">Filter</h4>
       </div>
 
-    <?php endfor; ?>
+      <?php for ($num = 0; $num < count($carCheckbox); $num++) : ?>
 
+        <div class="col-sm-4 col-sm-offset-2">
+          <input type="checkbox" id="<?= $carCheckbox[$num]['id'] ?>" value="">
+          <label for="<?= $carCheckbox[$num]['id'] ?>" class="checkbox-label"><?= $carCheckbox[$num]['name'] ?></label>
+        </div>
+
+      <?php endfor; ?>
+
+    </div>
+    <div class="col-sm-8">
+        
+    </div>
   </div>
-  <div class="col-sm-8">
-      
-  </div>
-</div>
+</section>

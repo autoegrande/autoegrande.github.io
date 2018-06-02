@@ -84,12 +84,21 @@ section div.row
 	margin-right: 0;
 }
 
+/* Body */
+
+/* Search Filter */
+
 label.checkbox-label
 {
 	font-size: 12px;
 }
 
-/* Body */
+section div#filterSearch
+{
+	margin-top: 16px;
+}
+
+/* Search Fister */
 
 /* Account Sign Up - Sign In */
 
