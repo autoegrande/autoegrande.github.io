@@ -24,6 +24,16 @@ $carCheckbox =
   ]
 ];
 
+$carList =
+[
+  [
+    "id" => "",
+    "name" => "",
+    "thumb" => "",
+    "link" => ""
+  ]
+];
+
 ?>
 
 <!-- Mengisi ruang dibawah Navbar -->
@@ -32,9 +42,12 @@ $carCheckbox =
 
 <!-- Mengisi ruang dibawah Navbar -->
 
-<section>
-  <div class="row" id="filterSearch">
-    <div class="col-sm-4">
+<section id="searchPage">
+  <div class="row">
+
+    <!-- Filter Area -->
+
+    <div class="col-sm-4" id="filterSearch">
 
       <div class="col-sm-4 col-sm-offset-4">
         <h4 class="text-center">Filter</h4>
@@ -42,8 +55,8 @@ $carCheckbox =
 
       <!-- Mencetak Checkbox Merek Mobil -->
 
-      <div class="col-sm-8 col-sm-offset-2">
-        <h5 class="text-center">Merk</h5>
+      <div class="col-sm-8 col-sm-offset-2 filterTitle">
+        <h5 class="text-center">Brand</h5>
       </div>
 
       <?php for ($num = 0; $num < count($carCheckbox); $num++) : ?>
@@ -59,7 +72,7 @@ $carCheckbox =
 
       <!-- Slider Filter Harga -->
 
-      <div class="col-sm-8 col-sm-offset-2">
+      <div class="col-sm-8 col-sm-offset-2 filterTitle">
         <h5 class="text-center">Price</h5>
       </div>
 
@@ -76,8 +89,31 @@ $carCheckbox =
       <!-- Rating -->
 
     </div>
-    <div class="col-sm-8">
-        
+
+    <!-- Filter Area -->
+
+    <!-- Result Area -->
+
+    <div class="col-sm-6" id="filterResult">
+
+      <!-- Mencetak hasil pencarian -->
+
+      <?php for ($num = 0; $num < count($carList); $num++) : ?>
+
+        <div class="col-sm-3 col-sm-offset-1">
+          <div class="col-sm-12">
+            <img src="" id="<?= $carList[$num]['id']; ?>" class="">
+            <label for="<?= $carList[$num]['id']; ?>"><?= $carList[$num]['name']; ?></label>
+          </div>
+        </div>
+
+      <?php endfor; ?>
+
+      <!-- Mencetak hasil pencarian -->
+
     </div>
+
+    <!-- Result Area -->
+
   </div>
 </section>

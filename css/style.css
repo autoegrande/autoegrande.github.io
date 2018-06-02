@@ -93,18 +93,40 @@ div#filterSearch label.checkbox-label
 	font-size: 12px;
 }
 
-section div#filterSearch
+section#searchPage div#filterSearch
 {
 	margin-top: 16px;
+}
+
+div.filterTitle
+{
+	margin-top: 24px;
 }
 
 /* Search Filter */
 
 /* Account Sign Up - Sign In */
 
-section div#signup input
+div.loginTitle
+{
+	margin-bottom: 20px;
+}
+
+section div#signUp input,
+section div#signIn input
 {
 	margin-bottom: 16px;
+}
+
+section#loginPage label.checkbox-label
+{
+	font-size: 12px;
+}
+
+section#loginPage button
+{
+	margin-top: 16px;
+	width: 96px;
 }
 
 /* Account Sign Up - Sign In */

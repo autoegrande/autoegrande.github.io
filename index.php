@@ -27,7 +27,7 @@
     <!-- Navbar -->
 
 
-    <?php include "assets/view/view_search.php"; ?>
+    <?php include "assets/view/view_account.php"; ?>
 
 
     <!-- Footer -->
