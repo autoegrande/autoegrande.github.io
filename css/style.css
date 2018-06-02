@@ -88,7 +88,7 @@ section div.row
 
 /* Search Filter */
 
-label.checkbox-label
+div#filterSearch label.checkbox-label
 {
 	font-size: 12px;
 }
@@ -98,7 +98,7 @@ section div#filterSearch
 	margin-top: 16px;
 }
 
-/* Search Fister */
+/* Search Filter */
 
 /* Account Sign Up - Sign In */
 
