@@ -40,5 +40,47 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/laferrari.jpg" alt="Ferrari" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Ferrari LaFerrari</h3>
+          <p>‘‘Only Those Who Dare,Truly Live’’</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/lexusrx.jpg" alt="Lexus" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Lexus RX 350</h3>
+          <p>‘‘The Pursuit of Perfection’’</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="images/jaguarxj.jpeg" alt="Jaguar" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Jaguar XJ</h3>
+          <p>“The Art of Performance” </p>
+        </div>      
+      </div>
+      <div class="item">
+        <img src="images/landrovervelar.jpg" alt="LandRover" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Land Rover Velar</h3>
+          <p>“Above & Beyond“</p>
+        </div>      
+    </div>
+    </div>
+
   </body>
 </html>
