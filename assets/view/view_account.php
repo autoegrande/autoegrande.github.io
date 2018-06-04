@@ -1,10 +1,4 @@
 
-<!-- Mengisi ruang dibawah Navbar -->
-
-<div class="space-navbar"></div>
-
-<!-- Mengisi ruang dibawah Navbar -->
-
 <section id="accountPage">
 	<div class="row">
 		
