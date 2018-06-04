@@ -33,7 +33,7 @@
     <!-- Jumbotron -->
 
 
-    <?php include "assets/view/view_account.php"; ?>
+    <?php /* include "assets/view/view_account.php"; */ ?>
 
 
     <!-- Footer -->
