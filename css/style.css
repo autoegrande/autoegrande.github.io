@@ -10,9 +10,27 @@ section
 
 body
 {
-	margin: 0 0 0 0;
+	margin: 42px 0 0 0;
 	padding: 0 0 0 0;
 }
+
+/* Body */
+
+div.space-navbar
+{
+	width: 100%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	height: 24px;
+}
+
+section div.row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* Body */
 
 /* Navbar */
 
@@ -53,7 +71,7 @@ nav li div.input-area
 
 nav ul.navbar-nav
 {
-	width: 68%;
+	width: 70%;
 }
 
 nav ul a.btn
@@ -82,7 +100,7 @@ div#galleryJumbotron
 	padding: 0 0 0 0;
 }
 
-div#galleryJumbotron div.carousel-inner
+div#galleryJumbotron
 {
 	width: 100%;
 	height: 560px;
@@ -91,28 +109,10 @@ div#galleryJumbotron div.carousel-inner
 div#galleryJumbotron div.carousel-inner img
 {
 	width: 100%;
-	height: 560px;
+	height: auto;
 }
 
 /* Jumbotron */
-
-/* Body */
-
-div.space-navbar
-{
-	width: 100%;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-	height: 64px;
-}
-
-section div.row
-{
-	margin-left: 0;
-	margin-right: 0;
-}
-
-/* Body */
 
 /* Search Filter */
 
