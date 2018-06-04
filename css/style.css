@@ -8,6 +8,12 @@ section
 	width: 100%;
 }
 
+body
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
 /* Navbar */
 
 nav.navbar-default
@@ -68,6 +74,28 @@ nav li div.btn-area
 
 /* Navbar */
 
+/* Jumbotron */
+
+div#galleryJumbotron
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+div#galleryJumbotron div.carousel-inner
+{
+	width: 100%;
+	height: 560px;
+}
+
+div#galleryJumbotron div.carousel-inner img
+{
+	width: 100%;
+	height: 560px;
+}
+
+/* Jumbotron */
+
 /* Body */
 
 div.space-navbar
@@ -75,7 +103,7 @@ div.space-navbar
 	width: 100%;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-	height: 50px;
+	height: 64px;
 }
 
 section div.row
@@ -107,8 +135,14 @@ div.filterTitle
 
 /* Account Sign Up - Sign In */
 
+section#loginPage div#signUp
+{
+	border-right: 2px solid lightgray;
+}
+
 div.loginTitle
 {
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -131,11 +165,44 @@ section#loginPage button
 
 /* Account Sign Up - Sign In */
 
+/* Account Info */
+
+section#accountPage div.nav-tab
+{
+	display: block;
+}
+
+section#accountPage div.center-line
+{
+	height: 100%;
+	border-right: 2px solid lightgray;
+}
+
+section#accountPage div.nav-tab a
+{
+	font-size: 24px;
+	color: black;
+}
+
+section#accountPage ul a.tab-menu:hover,
+section#accountPage ul a.tab-menu:focus
+{
+  text-decoration: none;
+}
+
+section#accountPage ul li
+{
+	list-style: none;
+	margin: 51% 0 51% 0;
+}
+
+/* Account Info */
+
 /* Footer */
 
 footer .footer-website
 {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
