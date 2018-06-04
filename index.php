@@ -26,15 +26,7 @@
     <?php include "assets/view/view_navbar.php"; ?>
     <!-- Navbar -->
 
-    <!-- Jumbotron -->
-
-    <?php include "assets/view/view_jumbotron.php"; ?>
-
-    <!-- Jumbotron -->
-
-
     <?php /* include "assets/view/view_account.php"; */ ?>
-
 
     <!-- Footer -->
     <?php include "assets/view/view_footer.php"; ?>
