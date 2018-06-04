@@ -11,7 +11,7 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a href="" class="navbar-brand page-scroll">AUTO E GRANDE</a>
+      <a href="" class="navbar-brand">AUTO E GRANDE</a>
     </div>
 
     <div class="collapse navbar-collapse" id="autoegrande-collapse">
