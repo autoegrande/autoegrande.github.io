@@ -3,7 +3,7 @@
 
 <section>
   <div class="row" id="galleryJumbotron">
-    <div class="col-sm-10 col-sm-offset-1">
+    <div class="">
 
       <!-- Gallery -->
 
@@ -25,15 +25,15 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="item active">
-            <img src="assets/images/laferrari.jpg" alt="Ferrari">
+            <img src="assets/images/jumbotron/laferrari.png" alt="Ferrari">
             <div class="carousel-caption">
               <h3>Ferrari LaFerrari</h3>
-              <p>‘‘Only Those Who Dare, Truly Live’’</p>
+              <p>‘‘Only Those Who Dare,Truly Live’’</p>
             </div>      
           </div>
 
           <div class="item">
-            <img src="assets/images/lexusrx.jpg" alt="Lexus">
+            <img src="assets/images/jumbotron/lexusrx.png" alt="Lexus">
             <div class="carousel-caption">
               <h3>Lexus RX 350</h3>
               <p>‘‘The Pursuit of Perfection’’</p>
@@ -41,18 +41,18 @@
           </div>
         
           <div class="item">
-            <img src="assets/images/jaguarxj.jpg" alt="Jaguar">
+            <img src="assets/images/jumbotron/jaguarftype.png" alt="Jaguar">
             <div class="carousel-caption">
-              <h3>Jaguar XJ</h3>
+              <h3>Jaguar F-Type</h3>
               <p>“The Art of Performance” </p>
             </div>      
           </div>
 
           <div class="item">
-            <img src="assets/images/landrovervelar.jpg" alt="LandRover">
+            <img src="assets/images/jumbotron/landroverevoque.png" alt="LandRover">
             <div class="carousel-caption">
-              <h3>Land Rover Velar</h3>
-              <p>“Above and Beyond“</p>
+              <h3>Land Rover Evoque</h3>
+              <p>“Above & Beyond“</p>
             </div>      
           </div>
 
@@ -60,7 +60,7 @@
 
         <!-- Wrapper for slides -->
 
-        <!-- Navigation -->
+        <!-- Gallery Navigation -->
 
         <a class="left carousel-control" href="#galleryTop" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
@@ -71,7 +71,7 @@
           <span class="sr-only">Next</span>
         </a>
 
-        <!-- Navigation -->
+        <!-- Gallery Navigation -->
 
       </div>
 

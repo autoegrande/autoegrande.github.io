@@ -98,12 +98,8 @@ div#galleryJumbotron
 {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
-}
-
-div#galleryJumbotron
-{
 	width: 100%;
-	height: 560px;
+	height: auto;
 }
 
 div#galleryJumbotron div.carousel-inner img
@@ -198,11 +194,41 @@ section#accountPage ul li
 
 /* Account Info */
 
+/* Chart Empty */
+
+section#chartEmpty a
+{
+	color: black;
+}
+
+section#chartEmpty a:hover,
+section#chartEmpty a:focus
+{
+  text-decoration: none;
+  color: grey;
+}
+
+section#chartEmpty div.space
+{
+	margin-top: 6%;
+}
+
+section#chartEmpty div.imageEmpty
+{
+	height: 112px;
+}
+
+section#chartEmpty div.imageEmpty img
+{
+	height: 100%;
+}
+
+/* Chart Empty */
+
 /* Footer */
 
 footer .footer-website
 {
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
