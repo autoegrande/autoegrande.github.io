@@ -225,6 +225,96 @@ section#chartEmpty div.imageEmpty img
 
 /* Chart Empty */
 
+/* Chart List */
+
+section#chartList
+{
+	width: 100%;
+}
+
+section#chartList div.itemList
+{
+	width: 100%;
+	max-height: 280px;
+	padding: 8px 0px 8px 8px;
+}
+
+section#chartList div.frameThumb
+{
+	width: 256px;
+}
+
+section#chartList div.frameImage
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+section#chartList div.frameImage img
+{
+	width: 100%;
+	height: auto;
+}
+
+section#chartList div.quantityCount,
+section#chartList div.quantityCountH5
+{
+	padding: 0 0 0 0;
+	margin: 8px 0 0 0;
+	text-align: center;
+	width: 28px;
+	height: 28px;
+}
+
+section#chartList div.quantityCountH5
+{
+	border: 1px solid lightgray;	
+}
+
+section#chartList div.quantityCountH5 h5
+{
+	width: 100%;
+	height: 100%;
+	margin: 6px 0 6px 0;
+}
+
+section#chartList div.itemList a.btn-default
+{
+	width: 28px;
+	height: 28px;
+	border: 1px solid lightgray;
+	border-radius: 0%;
+	padding: 1px 1px 1px 1px;
+}
+
+section#chartList div.frameDescrypt
+{
+	padding-left: 0;
+	width: 60%;
+	background-color: lightgray;
+}
+
+section#chartList hr
+{
+	width: 78%;
+	border-bottom: 2px solid gray;
+}
+
+section#chartList div.btnPos
+{
+	width: 90%;
+	margin-bottom: 16px;
+}
+
+section#chartList button.btn-default
+{
+	height: 32px;
+	border-radius: 5%;
+	box-shadow: 1.5px 1.5px 1px gray;
+}
+
+/* Chart List */
+
 /* Footer */
 
 footer .footer-website
