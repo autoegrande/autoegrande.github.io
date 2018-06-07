@@ -194,6 +194,41 @@ section#accountPage ul li
 
 /* Account Info */
 
+/* Car List */
+
+section#carList div.itemList
+{
+	padding: 8px 8px 8px 8px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+section#carList div.itemList:hover
+{
+	background-color: #e3e6ea;
+}
+
+section#carList div.itemList img
+{
+	margin-bottom: 8px;
+	width: 100%;
+	height: auto;
+}
+
+section#carList div.itemList div
+{
+	padding: 0 0 0 0;
+}
+
+section#carList div.itemList button.btn-default
+{
+	border-radius: 5%;
+	margin: 0 0 0 0;
+	width: 90%;
+}
+
+/* Car List */
+
 /* Chart Empty */
 
 section#chartEmpty a
@@ -283,7 +318,7 @@ section#chartList div.itemList a.btn-default
 	width: 28px;
 	height: 28px;
 	border: 1px solid lightgray;
-	border-radius: 0%;
+	border-radius: 5%;
 	padding: 1px 1px 1px 1px;
 }
 
@@ -315,6 +350,16 @@ section#chartList button.btn-default
 
 /* Chart List */
 
+/* Chart Pay Now */
+
+section#chartPayNow hr
+{
+	width: 100%;
+	border: 1px solid black;
+}
+
+/* Chart Pay Now */
+
 /* Footer */
 
 footer .footer-website
@@ -323,7 +368,8 @@ footer .footer-website
 	bottom: 0;
 	width: 100%;
 	height: 36px;
-	padding-top: 10px;
+	padding: 10px 0 0 0;
+	margin-bottom: 0;
 	background-color: #00FF1E;
 }
 
