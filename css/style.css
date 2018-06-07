@@ -358,6 +358,39 @@ section#chartPayNow hr
 	border: 1px solid black;
 }
 
+section#chartPayNow table
+{
+	width: 100%;
+}
+
+section#chartPayNow table tr
+{
+	height: 32px;
+}
+
+section#chartPayNow table tr.rowHeight
+{
+	height: 72px;
+}
+
+section#chartPayNow table td
+{
+	width: 42%;
+}
+
+section#chartPayNow table td.colCenter
+{
+	width: 16%;
+}
+
+section#chartPayNow table td button.btn-default
+{
+	padding: 4px 10px 4px 10px;
+	border-radius: 5%;
+	height: 30px;
+	width: 96px;
+	box-shadow: 1.5px 1.5px 1px gray;
+}
 /* Chart Pay Now */
 
 /* Footer */
