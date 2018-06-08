@@ -1,3 +1,80 @@
+<?php 
+
+$carList =
+[
+  [
+    "name" => "Ferrari Berlenitta",
+    "image" => "listferrariberlenitta",
+    "link" => ""
+  ],
+  [
+    "name" => "Ferrari FF",
+    "image" => "listferrariff",
+    "link" => ""
+  ],
+  [
+    "name" => "Ferrari GTB",
+    "image" => "listferrarigtb",
+    "link" => ""
+  ],
+  [
+    "name" => "Jaguar F Type",
+    "image" => "listjaguarftype",
+    "link" => ""
+  ],
+  [
+    "name" => "Jaguar XE",
+    "image" => "listjaguarxe",
+    "link" => ""
+  ],
+  [
+    "name" => "Jaguar XF",
+    "image" => "listjaguarxf",
+    "link" => ""
+  ],
+  [
+    "name" => "La Ferrari",
+    "image" => "listlaferrari",
+    "link" => ""
+  ],
+  [
+    "name" => "Land Rover Defender",
+    "image" => "listlandroverdefender",
+    "link" => ""
+  ],
+  [
+    "name" => "Land Rover Discovery",
+    "image" => "listlandroverdiscovery",
+    "link" => ""
+  ],
+  [
+    "name" => "Lexus IS",
+    "image" => "listlexusis",
+    "link" => ""
+  ],
+  [
+    "name" => "Land Rover Freelander",
+    "image" => "listlandroverfreelander",
+    "link" => ""
+  ],
+  [
+    "name" => "Lexus LX",
+    "image" => "listlexuslx",
+    "link" => ""
+  ],
+  [
+    "name" => "Lexus RX",
+    "image" => "listlexusrx",
+    "link" => ""
+  ],
+  [
+    "name" => "Land Rover Rangerover",
+    "image" => "listlandroverrangerover",
+    "link" => ""
+  ]
+]
+
+ ?>
 
 <!-- Mengisi ruang dibawah Navbar -->
 
@@ -13,104 +90,26 @@
 
       <!-- Item List -->
 
-      <div class="col-sm-3 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/laferrari.png" alt="laferrari">
+      <?php for ($num = 0; $num < count($carList); $num++) : ?>
+
+      <div class="col-sm-3 
+        <?php if($num % 3 != 0)
+        {
+          echo 'col-sm-offset-1';
+        } ?> itemList text-center">
+
+        <h4><?= $carList[$num]['name']; ?></h4>
+        <img src="assets/images/carlist/<?= $carList[$num]['image']; ?>.jpg" alt="<?= $carList[$num]['image']; ?>">
         <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
+          <button type="button" class="btn btn-default">Detail <?= $num; ?></button>
         </div>
         <div class="col-sm-6 text-right">
           <button type="button" class="btn btn-default">Buy Now</button>
         </div>
+        
       </div>
 
-      <div class="col-sm-3 col-sm-offset-1 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/lexusrx.png" alt="lexusrx">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
-
-      <div class="col-sm-3 col-sm-offset-1 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/jaguarftype.png" alt="jaguarftype">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
-
-      <div class="col-sm-3 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/laferrari.png" alt="laferrari">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
-
-      <div class="col-sm-3 col-sm-offset-1 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/lexusrx.png" alt="lexusrx">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
-
-      <div class="col-sm-3 col-sm-offset-1 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/jaguarftype.png" alt="jaguarftype">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
-
-      <div class="col-sm-3 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/laferrari.png" alt="laferrari">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
-
-      <div class="col-sm-3 col-sm-offset-1 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/lexusrx.png" alt="lexusrx">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
-
-      <div class="col-sm-3 col-sm-offset-1 itemList text-center">
-        <h4>Car Name</h4>
-        <img src="assets/images/jumbotron/jaguarftype.png" alt="jaguarftype">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail</button>
-        </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-      </div>
+      <?php endfor; ?>
 
       <!-- Item List -->
       
