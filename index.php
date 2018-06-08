@@ -26,7 +26,7 @@
     <?php include "assets/view/view_navbar.php"; ?>
     <!-- Navbar -->
 
-    <?php  include "assets/view/view_chart1.php";  ?>
+    <?php  include "assets/view/view_list.php";  ?>
 
     <!-- Footer -->
     <?php include "assets/view/view_footer.php"; ?>
