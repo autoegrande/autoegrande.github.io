@@ -33,11 +33,6 @@ $carList =
     "link" => ""
   ],
   [
-    "name" => "La Ferrari",
-    "image" => "listlaferrari",
-    "link" => ""
-  ],
-  [
     "name" => "Land Rover Defender",
     "image" => "listlandroverdefender",
     "link" => ""
@@ -45,6 +40,31 @@ $carList =
   [
     "name" => "Land Rover Discovery",
     "image" => "listlandroverdiscovery",
+    "link" => ""
+  ],
+  [
+    "name" => "Lexus IS",
+    "image" => "listlexusis",
+    "link" => ""
+  ],
+  [
+    "name" => "Land Rover Freelander",
+    "image" => "listlandroverfreelander",
+    "link" => ""
+  ],
+  [
+    "name" => "Lexus LX",
+    "image" => "listlexuslx",
+    "link" => ""
+  ],
+  [
+    "name" => "Lexus RX",
+    "image" => "listlexusrx",
+    "link" => ""
+  ],
+  [
+    "name" => "Land Rover Rangerover",
+    "image" => "listlandroverrangerover",
     "link" => ""
   ],
   [
@@ -92,22 +112,36 @@ $carList =
 
       <?php for ($num = 0; $num < count($carList); $num++) : ?>
 
-      <div class="col-sm-3 
-        <?php if($num % 3 != 0)
-        {
-          echo 'col-sm-offset-1';
-        } ?> itemList text-center">
+        <?php 
+          if ($num % 3 == 0) 
+          {
+            echo '<div class="row">';
+          }
+        ?>
 
-        <h4><?= $carList[$num]['name']; ?></h4>
-        <img src="assets/images/carlist/<?= $carList[$num]['image']; ?>.jpg" alt="<?= $carList[$num]['image']; ?>">
-        <div class="col-sm-6 text-left">
-          <button type="button" class="btn btn-default">Detail <?= $num; ?></button>
+        <div class="col-sm-3 <?php
+          if($num % 3 != 0)
+          {
+            echo 'col-sm-offset-1';
+          } ?> itemList text-center">
+
+          <h4><?= $carList[$num]['name']; ?></h4>
+          <img src="assets/images/carlist/<?= $carList[$num]['image']; ?>.jpg" alt="<?= $carList[$num]['image']; ?>">
+          <div class="col-sm-6 text-left">
+            <button type="button" class="btn btn-default">Detail <?= $num; ?></button>
+          </div>
+          <div class="col-sm-6 text-right">
+            <button type="button" class="btn btn-default">Buy Now</button>
+          </div>
+
         </div>
-        <div class="col-sm-6 text-right">
-          <button type="button" class="btn btn-default">Buy Now</button>
-        </div>
-        
-      </div>
+
+        <?php 
+          if ($num % 3 == 2) 
+          {
+            echo '</div>';
+          }
+        ?>
 
       <?php endfor; ?>
 

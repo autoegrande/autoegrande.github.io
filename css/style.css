@@ -200,7 +200,8 @@ section#carList div.itemList
 {
 	padding: 8px 8px 8px 8px;
 	max-width: 100%;
-	max-height: auto;
+	height: auto;
+	transform: translate(0, 0);
 }
 
 section#carList div.itemList:hover
