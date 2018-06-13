@@ -1,0 +1,52 @@
+ENGINE
+Transmission	7-speed automatic
+Drivetrain	RWD
+CO₂ emissions	7,240 kg/year
+Type	V8 3.9 litres
+Power	661 hp @ 8,000 rpm (493 kW)
+Torque	561 lb·ft @ 3,000 rpm (761 N·m)
+Induction	Turbocharged
+Bore	86 mm
+Stroke	83 mm
+Fuel type	Premium
+VEHICLE TYPE / CATEGORY
+Vehicle type	Coupe
+Category	Sports Car over $100,000
+Assembly	Maranello, IT
+Generation	1
+FUEL EFFICIENCY / AUTONOMY
+City	18.1 l/100km
+Highway	12.3 l/100km
+Autonomy	503 km
+TIRES / SUSPENSION / BRAKES / SAFETY
+Steering	rack and pinion with assist
+Traction control	yes
+Stability control	yes
+Seat belts	2
+Airbags	4
+Front suspension	independent, double wishbones
+Rear suspension	independent, multi-link
+Front brakes	disc (ABS)
+Rear brakes	disc (ABS)
+Front tires	P245/35ZR20
+Rear tires	P305/30ZR20
+DIMENSIONS / WEIGHT
+Length	4,568 mm (180″)
+Width	1,952 mm (77″)
+Height	1,213 mm (48″)
+Wheelbase	2,650 mm (104″)
+Front track	1,679 mm (66″)
+Rear track	1,647 mm (65″)
+Weight	1,475 kg (3,252 lbs)
+Weight distribution front-rear	41% - 58%
+CAPACITIES
+Fuel tank	78 l (21 gal)
+Trunk	230 l (8 ft3)
+Towing	N/A
+Box length	N/A
+PERFORMANCE
+Power to weight ratio	333.0 W/kg
+0-100 km/h	3.0 s
+80-120 km/h	N/A
+Top speed	330 km/h
+Braking distance	N/A
