@@ -1,0 +1,90 @@
+Spesifikasi Jaguar F-Pace
+Mesin
+Tipe Mesin	DOHC, 4 silinder, twin-scroll turbo
+Kapasitas Mesin	1997 cc
+Daya Maksimum	250 Ps
+Torsi Maksimum	365 NM
+Sistem Suplai Bahan Bakar	Direct Injection
+Kecepatan Maksimum	217 Km/jam
+Transmisi	Otomatis 8 speed
+Dimensi
+Panjang	4746 mm
+Lebar	2175 mm
+Tinggi	1693 mm
+Berat Bersih	1565 kg
+Jarak Poros Roda	2874 mm
+Jarak Pijak Depan	1641 mm
+Jarak Pijak Belakang	1654 mm
+Jarak Terendah	213 mm
+Kapasitas Tempat Duduk	5 Kursi
+Berat Bersih	1690 kg
+Kapasitas Bahan Bakar	63 L
+Kaki-kaki
+Sistem Kemudi	Rack & Pinion
+Jenis Kemudi	Electric Power
+Suspesi Depan	Air Suspension
+Suspensi Belakang	Air Suspension
+Ban Depan	19 inchi, 255/55 R19
+Ban Belakang	19 inchi, 255/55 R19
+Fitur
+Keselamatan	• Sensor Parkir
+• Crash Sensor
+• Engine Check Warning
+• Tyre Pressure Monitor
+• Front Impact Beams
+• Pelindung Benturan Samping
+• Pengingat Pintu Terbuka
+• Traction Control
+• Vehicle Stability Control System
+• Sabuk Pengaman Belakang
+• Pengingat Pemakaian Sabuk Pengaman
+• Day Night Rearview Mirro
+• Sabuk Pengaman Depan dengan Penyesuai ketinggian
+• Kamera Belakang
+• Alarm Mobil
+• Engine Immobilizer
+• Perangkat Anti Maling
+Kenyamanan	• AC
+• Power Window Depan
+• Power Window- Belakang
+• Automatic Climate Control
+• Air Quality Control
+• Pemanas
+• Ventilasi AC Belakang
+• Glove Box dengan Pendingin
+• Engine Start Stop Button
+• Adjustable Seats
+• Kursi Pengemudi Dengan Penyesuai
+• Ketinggian
+• Kursi dengan Heater – Depan
+• Kursi dengan Heater – Belakang
+• On Board Computer
+• Spion Lipat Elektrik
+• Automatic Head Lamps
+• Steering Wheel Gearshift Paddle
+• Power Outlet
+• Power steering
+• Lingkar kemudi Dengan Tombol Multi
+• Cruise control
+• Kursi Lipat Belakang
+• Pembuka Bagasi
+• Lampu Pengingat Jumlah Bahan Bakar
+• Headrest Kursi Belakang
+• Arm Rest Belakang Tengah
+• Cup Holder – depan
+• Cup Holder – belakang
+• Lumbar support
+• Lampu Bagasi
+• Vanity Mirror
+• Keyless Entry
+• Touch Screen
+• Radio AM/FM
+• Sistem Navigasi
+• Sambungan Bluetooth
+• Soket USB
+• Pemutar CD
+• Pemutar DVD
+• Speaker depan
+• Speaker belakang
+• Audio 2DIN
+• Voice Control

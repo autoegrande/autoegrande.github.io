@@ -1,0 +1,25 @@
+Spesifikasi Jaguar XF 2.0 Black Jack
+Mesin
+Tipe	4-Valve in line turbocharged
+Kapasitas	 1.999cc
+Kecepatan Maksimum	250 km/jam
+Tenaga Maksimum	240 PS / 5.500 rpm
+Torsi Maksimum	340 Nm / 1.750 – 4.000 rpm
+Transmisi	ZF 8-percepatan
+Akslelrasi	0 – 100 km/jam @ 7.0 Detik
+Dimensi
+Panjang X Lebar X Tinggi	4.945 mm X  1.457 mm X   2.091 mm
+Jarak Sumbu	 2.960mm
+Volume Bagasi	540liter
+Kapasitas Tangki Bahan Bakar	74liter
+Berat Kosong	190 kg
+Kaki-kaki
+Tipe Suspensi Depan	Alumunium double front wishbone
+Tipe Suspensi Belakang	Integral Link Rear Suspensiun
+Rem Depan	Disc
+Rem Belakang	Disc
+Fitur
+• SRS Airbags
+• Dynamic Stability Control (DSC)
+• Engine Drag Torque Control (EDC)
+• Trailer Stability Assist (TSA)
