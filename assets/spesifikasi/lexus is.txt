@@ -1,0 +1,48 @@
+Spesifikasi Lexus ES
+Mesin
+Tipe	2AR-FE 4 Cylinders, In-line Type 16-Valve DOCH, VVT-i (Intake)
+Kapasitas	2,494 cc
+Konsumsi Bahan Bakar	5.5 l/100km
+Tenaga Maksimum	202 HP / 5,700 rpm
+Torsi Maksimum	213 Nm / 4,500 rpm
+Sistem Suplai Bahan Bakar	EFI
+Diameter x Langkah	90.0 x 98.0 mm
+Transmisi	E-CVT
+Dimensi
+Panjang	4,915 mm
+Lebar	1,820 mm
+Tinggi	1,450 mm
+Jarak Sumbu Roda	2,820 mm
+Tipe Rangka	Welded-steel unibody
+Berat	1670 Kg
+Kaki-kaki
+Suspensi Depan	Independent MacPherson Strut with Stabilizer
+Suspensi Belakang	Independent Dual-link MacPherson Strut with Stabilizer
+Rem Depan	11.6-in ventilated discs
+Rem Belakang	11.0-in solid discs
+Tipe Roda	215 / 55 R17 Aluminum Alloy Wheels
+Fitur
+Keamanan	Driver and Front Passenger Airbags
+Driver and Front Passenger Knee Airbags
+Driver and Front Passenger Side Airbags
+Front and Rear Seat Curtain Shield Airbags
+Rear Seat Side Airbags
+Traction Control (TRC)
+Vehicle Stability Control (VSC)
+Anti-lock Brake System (ABS)
+Brake Assist System (BA)
+Electronic Brake Force Distribution (EBD)
+Security System; Intrusion Sensor, Immobilizer
+Factory-fitted Front and Back Sensors
+Kenyamanan	Moonroof
+Interior Trim: Birdseye Maple Wood
+Power Trunk Lid and Easy Closer
+Power Rear Sunshade
+Electrochromic (Auto-dimming) Inside Rear View Mirror
+Electrochromic (Auto-dimming) Aspherical Exterior Side Mirrors with Turn Lamps and Memory
+2-zone Auto Recirculation Air Conditioning System
+Power Tilt and Telescopic Steering Column with Memory
+10-way Driver and Passenger Power Adjustable Seats with Memory
+Driver and Front Passenger Seat Air Conditioner
+Seat Lumbar Support
+Leather Seat Material
