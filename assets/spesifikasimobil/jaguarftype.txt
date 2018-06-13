@@ -1,90 +1,90 @@
-Spesifikasi Jaguar F-Pace
-Mesin
-Tipe Mesin	DOHC, 4 silinder, twin-scroll turbo
-Kapasitas Mesin	1997 cc
-Daya Maksimum	250 Ps
-Torsi Maksimum	365 NM
-Sistem Suplai Bahan Bakar	Direct Injection
-Kecepatan Maksimum	217 Km/jam
-Transmisi	Otomatis 8 speed
-Dimensi
-Panjang	4746 mm
-Lebar	2175 mm
-Tinggi	1693 mm
-Berat Bersih	1565 kg
-Jarak Poros Roda	2874 mm
-Jarak Pijak Depan	1641 mm
-Jarak Pijak Belakang	1654 mm
-Jarak Terendah	213 mm
-Kapasitas Tempat Duduk	5 Kursi
-Berat Bersih	1690 kg
-Kapasitas Bahan Bakar	63 L
-Kaki-kaki
-Sistem Kemudi	Rack & Pinion
-Jenis Kemudi	Electric Power
-Suspesi Depan	Air Suspension
-Suspensi Belakang	Air Suspension
-Ban Depan	19 inchi, 255/55 R19
-Ban Belakang	19 inchi, 255/55 R19
-Fitur
-Keselamatan	• Sensor Parkir
+Jaguar F-Pace Specifications
+Machine
+Type DOHC engine, 4 cylinder, twin-scroll turbo
+Machine Capacity 1997 cc
+Max Power 250 Ps
+Maximum Torque 365 NM
+Direct Injection Fuel Supply System
+Maximum Speed ​​217 Km / hour
+8 speed Automatic Transmission
+Dimensions
+Length 4746 mm
+Width 2175 mm
+Height of 1693 mm
+Net Weight 1565 kg
+Wheel Axle Distance 2874 mm
+Front Pijak Distance 1641 mm
+Rear-Back Distance 1654 mm
+Lowest Distance 213 mm
+Seating Capacity 5 Seats
+Net Weight 1690 kg
+Fuel Capacity 63 L
+The legs
+Rack & Pinion Steering System
+Type of Electric Power Steering
+Front Suspension Air Suspension
+Suspension Rear Suspension
+19 inch Front Tire, 255/55 R19
+19 inch Rear Tire, 255/55 R19
+Features
+Safety • Parking Sensor
 • Crash Sensor
 • Engine Check Warning
-• Tyre Pressure Monitor
+• Tire Pressure Monitor
 • Front Impact Beams
-• Pelindung Benturan Samping
-• Pengingat Pintu Terbuka
+• Side Side Protector
+• Open Door Reminder
 • Traction Control
 • Vehicle Stability Control System
-• Sabuk Pengaman Belakang
-• Pengingat Pemakaian Sabuk Pengaman
+• Rearguard Belt
+• Reminder of Safety Belt
 • Day Night Rearview Mirro
-• Sabuk Pengaman Depan dengan Penyesuai ketinggian
-• Kamera Belakang
-• Alarm Mobil
+• Front Safety Belt with Height Adjustment
+• Rear Camera
+• Car Alarm
 • Engine Immobilizer
-• Perangkat Anti Maling
-Kenyamanan	• AC
-• Power Window Depan
-• Power Window- Belakang
+• Anti-Theft Tool
+Comfort • AC
+• Front Window Power
+• Power Window- Rear
 • Automatic Climate Control
 • Air Quality Control
-• Pemanas
-• Ventilasi AC Belakang
-• Glove Box dengan Pendingin
+• Heating
+• Rear AC Ventilation
+• Glove Box with Cooling
 • Engine Start Stop Button
 • Adjustable Seats
-• Kursi Pengemudi Dengan Penyesuai
-• Ketinggian
-• Kursi dengan Heater – Depan
-• Kursi dengan Heater – Belakang
+• Driver's Chairs With Adjusters
+• Elevation
+• Seat with Heater - Home
+• Seat with Heater - Rear
 • On Board Computer
-• Spion Lipat Elektrik
+• Folding Electric Mirrors
 • Automatic Head Lamps
 • Steering Wheel Gearshift Paddle
 • Power Outlet
 • Power steering
-• Lingkar kemudi Dengan Tombol Multi
+• Steering wheel With Multi Button
 • Cruise control
-• Kursi Lipat Belakang
-• Pembuka Bagasi
-• Lampu Pengingat Jumlah Bahan Bakar
-• Headrest Kursi Belakang
-• Arm Rest Belakang Tengah
-• Cup Holder – depan
-• Cup Holder – belakang
+• Rear Fold Chair
+• Baggage opener
+• Fuel Total Reminder Lamp
+• Headrest Rear Seat
+• Central Back Arm Rest
+• Cup Holder - front
+• Cup Holder - rear
 • Lumbar support
-• Lampu Bagasi
+• Baggage Lights
 • Vanity Mirror
 • Keyless Entry
 • Touch Screen
-• Radio AM/FM
-• Sistem Navigasi
-• Sambungan Bluetooth
-• Soket USB
-• Pemutar CD
-• Pemutar DVD
-• Speaker depan
-• Speaker belakang
-• Audio 2DIN
+• Radio AM / FM
+• Navigation System
+• Bluetooth connection
+• USB socket
+• CD player
+• DVD player
+• Front speaker
+• Rear speaker
+• 2DIN Audio
 • Voice Control
