@@ -1,28 +1,28 @@
-Spesifikasi Lexus ES
-Mesin
-Tipe	2AR-FE 4 Cylinders, In-line Type 16-Valve DOCH, VVT-i (Intake)
-Kapasitas	2,494 cc
-Konsumsi Bahan Bakar	5.5 l/100km
-Tenaga Maksimum	202 HP / 5,700 rpm
-Torsi Maksimum	213 Nm / 4,500 rpm
-Sistem Suplai Bahan Bakar	EFI
-Diameter x Langkah	90.0 x 98.0 mm
-Transmisi	E-CVT
-Dimensi
-Panjang	4,915 mm
-Lebar	1,820 mm
-Tinggi	1,450 mm
-Jarak Sumbu Roda	2,820 mm
-Tipe Rangka	Welded-steel unibody
-Berat	1670 Kg
-Kaki-kaki
-Suspensi Depan	Independent MacPherson Strut with Stabilizer
-Suspensi Belakang	Independent Dual-link MacPherson Strut with Stabilizer
-Rem Depan	11.6-in ventilated discs
-Rem Belakang	11.0-in solid discs
-Tipe Roda	215 / 55 R17 Aluminum Alloy Wheels
-Fitur
-Keamanan	Driver and Front Passenger Airbags
+Specifications Lexus ES
+Machine
+Type 2AR-FE 4 Cylinders, In-line Type 16-Valve DOCH, VVT-i (Intake)
+Capacity 2,494 cc
+Fuel Consumption 5.5 l / 100km
+Maximum power 202 HP / 5,700 rpm
+Maximum Torque 213 Nm / 4,500 rpm
+EFI Fuel Supply System
+Diameter x Step 90.0 x 98.0 mm
+E-CVT transmission
+Dimensions
+Length 4.915 mm
+Width 1.820 mm
+Height 1.450 mm
+Wheelbase Distance 2.820 mm
+Frame Type Welded-steel unibody
+Weight 1670 Kg
+The legs
+Front Independent Suspension MacPherson Strut with Stabilizer
+Dual-link Dual-link Independent Back Suspension with MacPherson Strut with Stabilizer
+Front Brake 11.6-in ventilated discs
+Rear Brake 11.0-in solid discs
+Type Wheels 215/55 R17 Aluminum Alloy Wheels
+Features
+Security Driver and Front Passenger Airbags
 Driver and Front Passenger Knee Airbags
 Driver and Front Passenger Side Airbags
 Front and Rear Seat Curtain Shield Airbags
@@ -34,7 +34,7 @@ Brake Assist System (BA)
 Electronic Brake Force Distribution (EBD)
 Security System; Intrusion Sensor, Immobilizer
 Factory-fitted Front and Back Sensors
-Kenyamanan	Moonroof
+Moonroof Comfort
 Interior Trim: Birdseye Maple Wood
 Power Trunk Lid and Easy Closer
 Power Rear Sunshade
