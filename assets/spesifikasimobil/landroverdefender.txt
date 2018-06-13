@@ -1,50 +1,50 @@
-MESIN
-Tipe Mesin	2.4 litre 4 cylinder diesel engine
-Isi Silinder	7
-Daya Maximum	122hp / 90kW / 2,200rpm
-Torsi Maksimum	360Nm / 4,350rpm
-Kapasitas Tangki	75
-DIMENSI
-Panjang	3000 mm
-Lebar	1538 mm
-Tinggi	1,050 mm
-Jarak Poros Roda	-
-Jarak Pijak Depan	-
-Jarak Pijak Belakang	-
-Berat Kosong	-
-TRANSMISI
-Tipe	6-speed manual transmission
-Sistem Kemudi	Four-Wheel
-SUSPENSI
-Suspensi Depan	Coil spring suspension
-Suspensi Belakang	Coil spring suspension
-Rem Depan	Anti-lock Braking System (ABS) / Electronic Traction Control (ETC)
-Rem Belakang	Anti-lock Braking System (ABS) / Electronic Traction Control (ETC)
-VELG / BAN
-Ukuran Ban Depan	235/85R16 / Steel Wheel – Michelin Latitude Cross Tubeless Tyres
-Ukuran Ban Belakang	235/85R16 / Steel Wheel – Michelin Latitude Cross Tubeless Tyres
+MACHINE
+Engine Type 2.4 liter 4 cylinder diesel engine
+Cylinder Contents 7
+Maximum Power 122hp / 90kW / 2,200rpm
+Maximum torque of 360Nm / 4.350rpm
+Tank Capacity 75
+DIMENSIONS
+Length 3000 mm
+Width 1538 mm
+Height 1.050 mm
+Wheel Axle Distance -
+Distance Front Pajak -
+Backstroke Distance -
+Empty Weight -
+TRANSMISSION
+Type 6-speed manual transmission
+Four-Wheel Steering System
+SUSPENSION
+Front Suspension Coil spring suspension
+Rear Suspension Coil spring suspension
+Front Brake Anti-lock Braking System (ABS) / Electronic Traction Control (ETC)
+Rear Brake Anti-lock Braking System (ABS) / Electronic Traction Control (ETC)
+VELG / TIRE
+Front Tire Size 235 / 85R16 / Steel Wheel - Michelin Latitude Cross Tubeless Tyres
+Rear Tires Size 235 / 85R16 / Steel Wheel - Michelin Latitude Cross Tubeless Tyres
 EXTERIOR
-Lampu Kabut	Yes
-Lampu HID	Yes
-Spion dengan lampu belok	No
-Spion Otomatis	No
-Spion dapat di lipat	Yes
+Fog Light Yes
+HID Lamp Yes
+Rearview mirror No
+Auto Spy No
+Spion can be folded Yes
 INTERIOR
-AC Dual Zone Control Autoclimate	Yes
-Belakang Ventilasi AC	Yes
-Paddle Shift	Yes
-Sensor Hujan + Auto Wiper	Yes
-Kerai	-
-Audio	Yes
-Cruise Control	-
-Kemudi Audio Kontrol	No
-Panel Kayu	No
-Leather Seat	Yes
-Atur Kemudi Otomatis	No
-Sunroof	Yes
-KEAMANAN
-Badan Teknologi Struktural	Yes
-Immobilizer	Yes
-Airbags	No
-Sensor Parkir	-
-ABS	Yes
+AC Dual Zone Control Autoclimate Yes
+Rear Ventilation AC Yes
+Paddle Shift Yes
+Rain Sensor + Auto Wiper Yes
+Blinds -
+Audio Yes
+Cruise Control -
+Steering Audio Control No
+Wood Panel No
+Leather Seat Yes
+Auto Steering Set No
+Sunroof Yes
+SECURITY
+Structural Technology Agency Yes
+Immobilizer Yes
+Airbags No
+Parking Sensors -
+ABS Yes
