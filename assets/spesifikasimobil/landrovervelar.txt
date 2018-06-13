@@ -1,55 +1,55 @@
-Spesifikasi Range Rover Velar
-Tipe	2.0 R-Dynamic SE	3.0 R-Dynamic SE
-Mesin
-Tipe Mesin	4 Silinder Ingenium engines	V6 Supercharger
-Kapasitas	1.998cc	2.995 cc
-Tenaga Maksimal	250 PS	380 PS
-Torsi Maksimal	365 Nm	450 Nm
-Transmisi	8-speed Automatic
-Dimensi
-Panjang	4803 mm
-Lebar	2145 mm
-Tinggi	1665 mm
-Jarak Sumbu Roda	2874 mm
-Berat	1884 kg
-Kapasitas Tangki	63 L
-Kaki-kaki
-Suspensi Depan	MacPherson Strut
-Suspensi Belakang	Multi Link
-Velg	18 Inci
-Jenis Ban	Radial
-Ukuran Roda	R18
-Fitur
-Kenyamanan	• Touch Screen
-• Radio AM/FM
-• Sistem Navigasi
-• Sambungan Bluetooth
-• Pemutar CD
-• Soket USB
-• Pemutar DVD
-• Speaker depan
-• Speaker belakang
-• Audio 2DIN
-Keamanan	• Perangkat Anti Maling
-• Alarm Mobil
+Specification Range Rover Velar
+Type 2.0 R-Dynamic SE 3.0 R-Dynamic SE
+Machine
+Engine Type 4 Cylinder Ingenium engines V6 Supercharger
+Capacity 1.998cc 2,995 cc
+Maximum Power 250 PS 380 PS
+Maximum Torque 365 Nm 450 Nm
+8-speed Automatic Transmission
+Dimensions
+Length 4803 mm
+Width 2145 mm
+Height of 1665 mm
+Wheelbase Distance 2874 mm
+Weight 1884 kg
+Tank Capacity 63 L
+The legs
+MacPherson Strut Front Suspension
+Multi Back Link Suspension
+18 inch wheels
+Radial Tire Type
+R18 Wheel Size
+Features
+Convenience • Touch Screen
+• Radio AM / FM
+• Navigation System
+• Bluetooth connection
+• CD player
+• USB socket
+• DVD player
+• Front speaker
+• Rear speaker
+• 2DIN Audio
+Security • Anti-Theft Tool
+• Car Alarm
 • Engine Immobilizer
-• Kantong Udara Pengemudi
-• Airbag Penumpang
-• Airbag Samping Depan
+• Driver's Airbag
+• Passenger Airbag
+• Side Airbags
 • Child Safety Locks
 • Anti Lock Braking System
 • Brake Assist
 • EBD (Electronic Brake Distribution)
-• Sabuk Pengaman Belakang
-• Pengingat Pemakaian Sabuk Pengaman
+• Rearguard Belt
+• Reminder of Safety Belt
 • Day Night Rearview Mirror
-• Sabuk Pengaman Depan dengan Penyesuai ketingg
-• Kamera Belakang
-• Sensor Parkir
+• Front Safety Belt with Adjustment Up
+• Rear Camera
+• Parking Sensor
 • Crash Sensor
 • Engine Check Warning
-• Tyre Pressure Monitor
+• Tire Pressure Monitor
 • Front Impact Beams
-• Pelindung Benturan Samping
-• Pengingat Pintu Terbuka
+• Side Side Protector
+• Open Door Reminder
 • Traction Control
