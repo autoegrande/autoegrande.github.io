@@ -13,6 +13,16 @@ $formSignUp =
     "type" => "text"
   ],
   [
+    "id" => "address",
+    "name" => "Address :",
+    "type" => "address"
+  ],
+  [
+    "id" => "phone",
+    "name" => "Phone :",
+    "type" => "phone"
+  ],
+  [
     "id" => "password",
     "name" => "Password :",
     "type" => "password"
@@ -70,11 +80,11 @@ $formSignIn =
 
       <!-- Menampilkan Form Sign Up -->
 
-      <div class="col-sm-6 col-sm-offset-3">
+      <div class="col-sm-7 col-sm-offset-3">
         <input type="checkbox" placeholder="" id="sentMessaggeAgreement" value="">
         <label for="sentMessaggeAgreement" class="checkbox-label">I agree if there is a message sent to my email</label>
       </div>
-      <div class="col-sm-6 col-sm-offset-3">
+      <div class="col-sm-7 col-sm-offset-3">
         <input type="checkbox" placeholder="" id="yearsOldAgreement" value="">
         <label for="yearsOldAgreement" class="checkbox-label">I am already 18 years old</label>
       </div>
