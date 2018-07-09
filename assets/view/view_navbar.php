@@ -17,10 +17,10 @@
     <form  action="" method="POST">
       <div class="collapse navbar-collapse" id="autoegrande-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><button type="button" class="btn btn-default navbar-btn" name="accountBtn" onclick=""><a href="account.php">ACCOUNT</a></button></li>
-          <li><button type="button" class="btn btn-default navbar-btn" name="chartBtn">CHART</button></li>
-          <li><button type="button" class="btn btn-default navbar-btn" name="carListBtn">CAR LIST</button></li>
-          <li><button type="button" class="btn btn-default navbar-btn" name="rentGarageBtn">RENT GARAGE</button></li>
+          <li class="btn-menu"><a href="" class="btn-menu navbar-btn">ACCOUNT</a></li>
+          <li class="btn-menu"><a href="" class="btn-menu navbar-btn">CHART</a></li>
+          <li class="btn-menu"><a href="" class="btn-menu navbar-btn">CAR LIST</a></li>
+          <li class="btn-menu"><a href="" class="btn-menu navbar-btn">RENT GARAGE</a></li>
           <li>
             <div class="navbar-form navbar-left">
               <div class="form-group row">
