@@ -1,26 +1,66 @@
+<!-- html script -->
+<!DOCTYPE html> 
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title></title>
 
-<section id="accountPage">
-	<div class="row">
-		
-		<!-- Vertikal Tab Menu -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-		<div class="col-sm-4 nav-tab">
-			<div class="col-sm-9 col-sm-offset-3 center-line">
-				<ul>
-					<li><a href="" class="tab-menu">Identity</a></li>
-					<li><a href="" class="tab-menu">History</a></li>
-					<li><a href="" class="tab-menu">Setting</a></li>
-				</ul>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/style.css" rel="stylesheet">
+    
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <?php include "assets/view/view_navbar.php"; ?>
+    <!-- Navbar -->
+
+		<section id="accountPage">
+			<div class="row">
+				
+				<!-- Vertikal Tab Menu -->
+
+				<div class="col-sm-4 nav-tab">
+					<div class="col-sm-9 col-sm-offset-3 center-line">
+						<ul>
+							<li><a href="" class="tab-menu">Identity</a></li>
+							<li><a href="" class="tab-menu">History</a></li>
+							<li><a href="" class="tab-menu">Setting</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Vertikal Tab Menu -->
+
+				<!-- Content Tab Menu -->
+
+				<?php include "assets/view/view_account_identity.php"; ?>
+
+				<!-- Content Tab Menu -->
+
 			</div>
-		</div>
+		</section>
+		
+    <!-- Footer -->
+    <?php include "assets/view/view_footer.php"; ?>
+    <!-- Footer -->
 
-		<!-- Vertikal Tab Menu -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
-		<!-- Content Tab Menu -->
-
-		<?php include "assets/view/view_account_identity.php"; ?>
-
-		<!-- Content Tab Menu -->
-
-	</div>
-</section>
+  </body>
+</html>

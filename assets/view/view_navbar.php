@@ -11,13 +11,13 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a href="" class="navbar-brand">AUTO E GRANDE</a>
+      <a href="index.php" class="navbar-brand">AUTO E GRANDE</a>
     </div>
 
     <form  action="" method="POST">
       <div class="collapse navbar-collapse" id="autoegrande-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="btn-menu"><a href="" class="btn-menu navbar-btn">ACCOUNT</a></li>
+          <li class="btn-menu"><a href="account.php" class="btn-menu navbar-btn">ACCOUNT</a></li>
           <li class="btn-menu"><a href="" class="btn-menu navbar-btn">CHART</a></li>
           <li class="btn-menu"><a href="" class="btn-menu navbar-btn">CAR LIST</a></li>
           <li class="btn-menu"><a href="" class="btn-menu navbar-btn">RENT GARAGE</a></li>
