@@ -55,6 +55,11 @@ nav ul button.btn-default
 	width: 124px;
 }
 
+nav ul button a:hover
+{
+	text-decoration: none;
+}
+
 nav ul input.form-control
 {
 	border-radius: 0%;
@@ -193,6 +198,15 @@ section#accountPage ul li
 }
 
 /* Account Info */
+
+/* Account Identity */
+
+div#accountIdentityPage
+{
+	padding-top: 12%;
+}
+
+/* Account Identity */
 
 /* Car List */
 

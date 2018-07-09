@@ -18,7 +18,7 @@
 
 		<!-- Content Tab Menu -->
 
-		<?php include "assets/view/view_account1.php"; ?>
+		<?php include "assets/view/view_account_identity.php"; ?>
 
 		<!-- Content Tab Menu -->
 
