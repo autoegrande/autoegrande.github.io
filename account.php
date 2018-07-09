@@ -7,9 +7,12 @@ $main = new controller();
 if(isset($_POST['signinsubmit']))
 {
 		// Kondisi untuk mengakses halaman Login
-    $main->Login($_POST['username']);
+    $main->Login();
 }
 else
 {
     $main->Account();
 }
+
+
+var_dump($_POST);

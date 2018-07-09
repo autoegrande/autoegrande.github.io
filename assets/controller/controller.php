@@ -13,51 +13,35 @@
 			// Variabel model merupakan objek baru yang dibuat dari class model
 			$this->model = new model();
 		}
+		
 		// Menampilkan Index
 		function index()
 		{
 			include "assets/view/view_index.php";
 		}
+		
 		// Menampilkan halaman Account
 		function Account()
 		{
 			include "assets/view/view_account.php";
 		}
+		
+
+
 		// Menampilkan halaman setelah Login
-		function Login($username, $password)
+		function Login()
 		{
+			$username=$_POST['loginusername'];
+			$password=$_POST['loginpassword'];
 			$data = $this->model->SignIn($username, $password);
 			if($data)
 			{
 				include "assets/view/view_account_unpaid_order.php";
 			}
 		}
-		// Menampilkan halaman Login
-		function viewInsert()
-		{
-			include "assets/view/view_login.php";
-		}
-		
-		// Fungsi updata data
-		function update()
-		{
-			$nim = $_POST['nim'];
-			$nama = $_POST['nama'];
-			$angkatan = $_POST['angkatan'];
-			$fakultas = $_POST['fakultas'];
-			$prodi = $_POST['prodi'];
-			
-			$update = $this->model->updateMhs($nim, $nama, $angkatan, $fakultas, $prodi);
-			header("location:index.php");
-		}
-		// Fungsi untuk menghapus
-		function delete($nim)
-		{
-			$delete = $this->model->deleteMhs($nim);
-			header("location:index.php");
-		}
+
 		// Fungsi Sign Up
-		function SignUpBtn()
+		function SignUp()
 		{
 			$fullname = $_POST['fullname'];
 			$address = $_POST['address'];
@@ -70,7 +54,7 @@
 			if ($confirmpassword == $password)
 			{
 				$insert = $this->model->SignUp($fullname,$address,$phone,$email,$username,$password,$confirmpassword);
-				header("location:index.php");
+				header("location:account.php");
 			}
 		}
 		

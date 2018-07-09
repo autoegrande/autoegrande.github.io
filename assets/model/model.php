@@ -5,14 +5,6 @@
 		function __construct()
 		{
 			$connect = mysqli_connect("localhost", "root", "", "jual_mobil");
-			if($connect)
-			{
-				echo "Berhasil";
-			}
-			else
-			{
-				echo "Gagal";
-			}
 		}
 		
 		function execute($query)
@@ -26,24 +18,6 @@
 			$query = "select * from nama_mobil";
 			return $this->execute($query);
 		}
-		
-		function selectMhs($nim)
-		{
-			$query = "select * from mahasiswa where nim='$nim'";
-			return $this->execute($query);
-		}
-		
-		function updateMhs($nim, $nama, $angkatan, $fakultas, $prodi)
-		{
-			$query = "update mahasiswa set nim='$nim', nama='$nama', angkatan='$angkatan', fakultas='$fakultas', program='$prodi' where nim='$nim'";
-			return $this->execute($query);
-		}
-		
-		function deleteMhs($nim)
-		{
-			$query = "delete from mahasiswa where nim='$nim'";
-			return $this->execute($query);
-		}
 
 		function SignIn($username,$password)
 		{
@@ -54,7 +28,7 @@
 		function SignUp($fullname,$address,$phone,$email,$username,$password,$confirmpassword)
 		{
 			$pss = htmlspecialchars($password);
-			$query = "insert into pelanggan values ('$fullname,$address,$phone,$email,$username,$password,$confirmpassword)";
+			$query = "INSERT INTO pelanggan VALUES ('e12345678','$fullname','$address','$phone','$email','$username','$password')";
 			return $this->execute($query);
 		}
 		

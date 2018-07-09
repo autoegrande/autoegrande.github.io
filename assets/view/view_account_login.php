@@ -42,12 +42,12 @@ $formSignUp =
 $formSignIn =
 [
   [
-    "id" => "username",
+    "id" => "loginusername",
     "name" => "Username :",
     "type" => "text"
   ],
   [
-    "id" => "password",
+    "id" => "loginpassword",
     "name" => "Password :",
     "type" => "password"
   ]
@@ -77,8 +77,8 @@ $formSignIn =
         <?php for ($num = 0; $num < count($formSignUp); $num++) : ?>
 
           <div class="col-sm-6 col-sm-offset-3">
-            <label for="<?= $formSignUp[$num]['id']; ?>"><?= $formSignUp[$num]['name']; ?></label>
-            <input type="<?= $formSignUp[$num]['type']; ?>" class="form-control" placeholder="" id="<?= $formSignUp[$num]['id']; ?>" value="">
+            <label for="id<?= $formSignUp[$num]['id']; ?>"><?= $formSignUp[$num]['name']; ?></label>
+            <input type="<?= $formSignUp[$num]['type']; ?>" class="form-control" placeholder="" name="<?= $formSignUp[$num]['id']; ?>" id="id<?= $formSignUp[$num]['id']; ?>" value="" required>
           </div>
 
         <?php endfor; ?>
@@ -100,6 +100,13 @@ $formSignIn =
 
       </div>
     </form>
+    <?php
+      if(isset($_POST['signupsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
+      {
+        $main = new controller();
+        $main->SignUp();
+      }
+    ?>    
 
     <!-- Sign Up Area -->
 
@@ -118,7 +125,7 @@ $formSignIn =
 
           <div class="col-sm-6 col-sm-offset-3">
             <label for="<?= $formSignIn[$num]['id']; ?>"><?= $formSignIn[$num]['name']; ?></label>
-            <input type="<?= $formSignIn[$num]['type']; ?>" class="form-control" placeholder="" id="<?= $formSignIn[$num]['id']; ?>" value="">
+            <input type="<?= $formSignIn[$num]['type']; ?>" class="form-control" placeholder="" id="<?= $formSignIn[$num]['id']; ?>" name="<?= $formSignUp[$num]['id']; ?>" value="" required>
           </div>
 
         <?php endfor; ?>
@@ -131,6 +138,15 @@ $formSignIn =
 
       </div>
     </form>
+
+    <?php
+    if(isset($_POST['signinsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
+    {
+      $main = new controller();
+      $main->Login();
+    }
+  ?>  
+
 
     <!-- Sign In Area -->
 
