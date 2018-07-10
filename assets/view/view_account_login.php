@@ -95,18 +95,11 @@ $formSignIn =
         </div>
 
         <div class="col-sm-6 col-sm-offset-3 text-center">
-          <button name="signupsubmit" type="submit" class="btn btn-default submitbtn">Submit</button>
+          <button name="loginsubmit" type="submit" value="signup" class="btn btn-default submitbtn">Submit</button>
         </div>
 
       </div>
     </form>
-    <?php
-      if(isset($_POST['signupsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
-      {
-        $main = new controller();
-        $main->SignUp();
-      }
-    ?>    
 
     <!-- Sign Up Area -->
 
@@ -125,7 +118,7 @@ $formSignIn =
 
           <div class="col-sm-6 col-sm-offset-3">
             <label for="<?= $formSignIn[$num]['id']; ?>"><?= $formSignIn[$num]['name']; ?></label>
-            <input type="<?= $formSignIn[$num]['type']; ?>" class="form-control" placeholder="" id="<?= $formSignIn[$num]['id']; ?>" name="<?= $formSignUp[$num]['id']; ?>" value="" required>
+            <input type="<?= $formSignIn[$num]['type']; ?>" class="form-control" placeholder="" id="<?= $formSignIn[$num]['id']; ?>" name="<?= $formSignIn[$num]['id']; ?>" value="" required>
           </div>
 
         <?php endfor; ?>
@@ -133,17 +126,40 @@ $formSignIn =
         <!-- Menampilkan Form Sign In -->
 
         <div class="col-sm-6 col-sm-offset-3 text-center">
-          <button name="signinsubmit" type="submit" class="btn btn-default submitbtn">Login</button>
+          <button name="loginsubmit" type="submit" value="signin" class="btn btn-default submitbtn">Login</button>
         </div>
 
       </div>
     </form>
 
     <?php
-    if(isset($_POST['signinsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
+    // if(isset($_POST['signinsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
+    // {
+    //   $main = new controller();
+    //   $main->Login();
+    // }
+    // else if(isset($_POST['signupsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
+    //   {
+    //     $main = new controller();
+    //     $main->SignUp();
+    //   }
+    if(isset($_POST['loginsubmit']))
     {
       $main = new controller();
-      $main->Login();
+      switch ($_POST['loginsubmit']) 
+      {
+        case 'signin':
+            $main->Login();
+          break;
+
+        case 'signup':
+            $main->SignUp();
+          break;
+        
+        default:
+            echo "Gagal";
+          break;
+      }
     }
   ?>  
 

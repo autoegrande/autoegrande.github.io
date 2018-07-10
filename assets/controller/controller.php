@@ -25,8 +25,6 @@
 		{
 			include "assets/view/view_account.php";
 		}
-		
-
 
 		// Menampilkan halaman setelah Login
 		function Login()
@@ -53,7 +51,7 @@
 
 			if ($confirmpassword == $password)
 			{
-				$insert = $this->model->SignUp($fullname,$address,$phone,$email,$username,$password,$confirmpassword);
+				$insert = $this->model->SignUp($fullname,$address,$phone,$email,$username,$password);
 				header("location:account.php");
 			}
 		}

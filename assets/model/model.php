@@ -25,10 +25,26 @@
 			return $this->execute($query);
 		}
 		
-		function SignUp($fullname,$address,$phone,$email,$username,$password,$confirmpassword)
+		function SignUp($fullname,$address,$phone,$email,$username,$password)
 		{
-			$pss = htmlspecialchars($password);
-			$query = "INSERT INTO pelanggan VALUES ('e12345678','$fullname','$address','$phone','$email','$username','$password')";
+			$connect = mysqli_connect("localhost", "root", "", "jual_mobil");
+			$_id_temp = mysqli_num_rows(mysqli_query($connect, "SELECT id_pelanggan FROM pelanggan")) + 1;
+			$_id = "C" . date("ymd");
+			if($_id_temp < 10)
+			{
+				$_id .= "0" . $_id_temp;
+			}
+			else
+			{
+				$_id .= $_id_temp;
+			}
+			$_fullname = htmlspecialchars($fullname);
+			$_address = htmlspecialchars($address);
+			$_phone = htmlspecialchars($phone);
+			$_email = htmlspecialchars($email);
+			$_username = htmlspecialchars($username);
+			$_password = htmlspecialchars($password);
+			$query = "INSERT INTO pelanggan VALUES ('$_id','$fullname','$address','$phone','$email','$username','$password')";
 			return $this->execute($query);
 		}
 		
