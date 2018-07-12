@@ -49,18 +49,6 @@ nav div.navbar-header a
 	font-size: 29px;
 }
 
-nav ul button.btn-default
-{
-	height: 31px;
-	width: 124px;
-}
-
-nav ul button.navbar-brand-btn
-{
-	background-color: #00FF1E;
-	outline-color: #00FF1E;
-}
-
 nav ul input.form-control
 {
 	border-radius: 0%;
