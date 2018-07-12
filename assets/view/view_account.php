@@ -28,7 +28,7 @@
 
 		<section id="accountPage">
 			<div class="row">
-				
+				<?php include "assets/view/view_account_login.php"; ?>
 			</div>
 
 		</section>

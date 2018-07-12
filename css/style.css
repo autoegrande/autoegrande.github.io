@@ -37,7 +37,6 @@ section div.row
 nav.navbar-default
 {
 	background-color: #00FF1E;
-	max-height: 9%;
 }
 
 nav ul.nav li
@@ -50,28 +49,16 @@ nav div.navbar-header a
 	font-size: 29px;
 }
 
-nav div.container-fluid,
-nav div.navbar-collapse,
-nav ul li.btn-menu
+nav ul button.btn-default
 {
-	height: 50px;
+	height: 31px;
+	width: 124px;
 }
 
-nav ul li.btn-menu
+nav ul button.navbar-brand-btn
 {
-	min-width: 8%;
-}
-
-nav ul a.btn-menu
-{
-	font-size: 1.2em;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-nav ul a.btn-menu:hover
-{
-	text-decoration: none;
+	background-color: #00FF1E;
+	outline-color: #00FF1E;
 }
 
 nav ul input.form-control
@@ -88,6 +75,11 @@ nav li div.input-area
 	padding-left: 0;
 }
 
+nav ul.navbar-nav
+{
+	width: 70%;
+}
+
 nav ul a.btn
 {
 	border-radius: 0%;
@@ -95,11 +87,6 @@ nav ul a.btn
 	height: 31px;
 	padding: 5px 5px 5px 5px;
 	margin-right: 0;
-}
-
-nav ul.navbar-nav
-{
-	width: 70%;
 }
 
 nav li div.btn-area

@@ -13,6 +13,11 @@
 			// Variabel model merupakan objek baru yang dibuat dari class model
 			$this->model = new model();
 		}
+
+		function MovePage($page)
+		{
+			header("location:" . $page . ".php");
+		}
 		
 		// Menampilkan Index
 		function index()
