@@ -24,6 +24,5 @@ if(isset($_POST['navbarbtn']))
 }
 else
 {
-	// Menampilkan halaman index/Home
-	$main->index();
+	$main->Index();
 }
