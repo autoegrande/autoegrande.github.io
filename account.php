@@ -4,10 +4,9 @@ include "assets/controller/controller.php";
 
 $main = new controller();
 // Kondisi untuk menampilkan halaman web yang diminta
-if(!isset($_POST['loginsubmit']))
+if(isset($_POST['loginsubmit']))
 {
-	// Kondisi untuk mengakses halaman Login
-  $main->Login();
+  $main->IncludeView('account');
 }
 else if(isset($_POST['navbarbtn']))
 {
@@ -29,5 +28,7 @@ else if(isset($_POST['navbarbtn']))
 }
 else
 {
-  $main->Account();
+  $main->IncludeView('account');
 }
+
+?>

@@ -4,43 +4,41 @@
 
 	class controller
 	{
-		// Variabel public
+
 		public $model;
-		
-		// Instansiasi
+
 		function __construct()
 		{
 			// Variabel model merupakan objek baru yang dibuat dari class model
 			$this->model = new model();
 		}
 
+		/* Pindah Halaman */
+
 		function MovePage($page)
 		{
 			header("location:" . $page . ".php");
 		}
+
+		/* Pindah Halaman */
+
+		/* Include View */
 		
-		// Menampilkan Index
-		function index()
+		function IncludeView($page)
 		{
-			include "assets/view/view_index.php";
-		}
-		
-		// Menampilkan halaman Account
-		function Account()
-		{
-			include "assets/view/view_account.php";
+			include "assets/view/view_" . $page .".php";
 		}
 
-		// Menampilkan halaman setelah Login
+		/* Include View */
+		
+		/* Login */
+
+		// Fungsi Sign in
 		function Login()
 		{
-			$username=$_POST['loginusername'];
-			$password=$_POST['loginpassword'];
+			$username = $_POST['loginusername'];
+			$password = $_POST['loginpassword'];
 			$data = $this->model->SignIn($username, $password);
-			if($data)
-			{
-				include "assets/view/view_account_unpaid_order.php";
-			}
 		}
 
 		// Fungsi Sign Up
@@ -60,6 +58,8 @@
 				header("location:account.php");
 			}
 		}
+		
+		/* Login */
 		
 		function __destruct()
 		{

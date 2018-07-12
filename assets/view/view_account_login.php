@@ -133,16 +133,6 @@ $formSignIn =
     </form>
 
     <?php
-    // if(isset($_POST['signinsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
-    // {
-    //   $main = new controller();
-    //   $main->Login();
-    // }
-    // else if(isset($_POST['signupsubmit'])) //jika button submit diklik maka panggil fungsi SignUp pada controller
-    //   {
-    //     $main = new controller();
-    //     $main->SignUp();
-    //   }
     if(isset($_POST['loginsubmit']))
     {
       $main = new controller();
@@ -151,18 +141,15 @@ $formSignIn =
         case 'signin':
             $main->Login();
           break;
-
         case 'signup':
             $main->SignUp();
           break;
-        
         default:
             echo "Gagal";
           break;
       }
     }
-  ?>  
-
+    ?>
 
     <!-- Sign In Area -->
 

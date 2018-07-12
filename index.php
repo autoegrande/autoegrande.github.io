@@ -3,7 +3,7 @@
 include "assets/controller/controller.php";
 
 $main = new controller();
-
+// Kondisi untuk menampilkan halaman web yang diminta
 if(isset($_POST['navbarbtn']))
 {
 	switch ($_POST['navbarbtn']) 
@@ -24,5 +24,7 @@ if(isset($_POST['navbarbtn']))
 }
 else
 {
-	$main->Index();
+	$main->IncludeView('index');
 }
+
+?>

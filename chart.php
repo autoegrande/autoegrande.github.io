@@ -6,8 +6,7 @@ $main = new controller();
 // Kondisi untuk menampilkan halaman web yang diminta
 if(isset($_POST['loginsubmit']))
 {
-	// Kondisi untuk mengakses halaman Login
-  $main->Login();
+ 
 }
 else if(isset($_POST['navbarbtn']))
 {
@@ -29,5 +28,5 @@ else if(isset($_POST['navbarbtn']))
 }
 else
 {
-  $main->Chart();
+  $main->IncludeView('chart');
 }
