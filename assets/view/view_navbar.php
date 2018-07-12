@@ -12,7 +12,7 @@
 					<span class="icon-bar"></span>
 				</button>
 
-				<button type="submit" class="navbar-brand navbar-brand-btn" name="navbarbtn" value="index">AUTO E GRANDE</button>
+	      <a href="index.php" class="navbar-brand">AUTO E GRANDE</a>
 			</div>
 
 
@@ -36,6 +36,7 @@
 					</li>
 				</ul>
 			</div>
+
 		</form>
 
 	</div>
