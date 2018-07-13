@@ -1,6 +1,6 @@
 <?php
 // Include class controller
-include "assets/controller/controller.php";
+require_once "./assets/controller/controller.php";
 
 $main = new controller();
 // Kondisi untuk menampilkan halaman web yang diminta
