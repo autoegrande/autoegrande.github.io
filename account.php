@@ -31,4 +31,5 @@ else
   $main->IncludeView('account');
 }
 
+var_dump($_POST);
 ?>
