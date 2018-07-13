@@ -1,10 +1,16 @@
 
 <!-- Navbar -->
-<?php include "assets/view/view_navbar.php"; ?>
+<?php
+require_once "./assets/controller/controller.php";
+
+$main = new controller();
+
+include_once "./assets/view/view_navbar.php";
+?>
 <!-- Navbar -->
 
-<?php include "assets/view/view_account_login.php"; ?>
+<?php $main->IncludeView('jumbotron'); ?>
 
 <!-- Footer -->
-<?php include "assets/view/view_footer.php"; ?>
+<?php include_once "assets/view/view_footer.php"; ?>
 <!-- Footer -->

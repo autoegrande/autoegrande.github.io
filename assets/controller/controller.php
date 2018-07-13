@@ -1,10 +1,25 @@
 <?php
+	/*
+	$filter = ".php";
+	$folder = 'assets/';
+	$proses = new RecursiveDirectoryIterator("$folder");
+	foreach(new RecursiveIteratorIterator($proses) as $file)
+	{
+	  if (!((strpos(strtolower($file), $filter)) === false) || empty($filter))
+	  {
+	    // $tampil[] = preg_replace("#/#", "/", $file);
+	    echo $file . "<br>";
+	  }
+	}
+	sort($tampil);
+	print_r($tampil);
+	*/
+
 	// Include class model
-	include "assets/model/model.php";
+	require_once "./assets/model/model.php";
 
 	class controller
 	{
-
 		public $model;
 
 		function __construct()
@@ -55,7 +70,6 @@
 			if ($confirmpassword == $password)
 			{
 				$insert = $this->model->SignUp($fullname,$address,$phone,$email,$username,$password);
-				header("location:account.php");
 			}
 		}
 		

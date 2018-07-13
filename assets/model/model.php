@@ -10,6 +10,18 @@
 		function execute($query)
 		{
 			$connect = mysqli_connect("localhost", "root", "", "jual_mobil");
+			/*
+			if(mysqli_query($connect, $query))
+			{
+				echo "<script>alert('Berhasil!')</script>". $query;
+				var_dump($connect);
+			}
+			else
+			{
+				echo "<script>alert('Gagal!')</script>" . $query;
+				var_dump($connect);
+			}
+			*/
 			return mysqli_query($connect, $query);
 		}
 		
