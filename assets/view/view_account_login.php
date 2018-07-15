@@ -133,6 +133,7 @@ $formSignIn =
     </form>
 
     <?php
+
     if(isset($_POST['loginsubmit']))
     {
       $main = new controller();
@@ -149,6 +150,7 @@ $formSignIn =
           break;
       }
     }
+
     ?>
 
     <!-- Sign In Area -->

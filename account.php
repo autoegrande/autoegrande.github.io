@@ -31,5 +31,8 @@ else
   $main->IncludeView('account');
 }
 
+echo "POST ";
 var_dump($_POST);
+echo "<br>GET ";
+var_dump($_GET);
 ?>

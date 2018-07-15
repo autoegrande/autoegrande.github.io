@@ -1,19 +1,4 @@
 <?php
-	/*
-	$filter = ".php";
-	$folder = 'assets/';
-	$proses = new RecursiveDirectoryIterator("$folder");
-	foreach(new RecursiveIteratorIterator($proses) as $file)
-	{
-	  if (!((strpos(strtolower($file), $filter)) === false) || empty($filter))
-	  {
-	    // $tampil[] = preg_replace("#/#", "/", $file);
-	    echo $file . "<br>";
-	  }
-	}
-	sort($tampil);
-	print_r($tampil);
-	*/
 
 	// Include class model
 	require_once "./assets/model/model.php";
@@ -41,7 +26,7 @@
 		
 		function IncludeView($page)
 		{
-			include "assets/view/view_" . $page .".php";
+			include "./assets/view/view_" . $page .".php";
 		}
 
 		/* Include View */
@@ -54,6 +39,14 @@
 			$username = $_POST['loginusername'];
 			$password = $_POST['loginpassword'];
 			$data = $this->model->SignIn($username, $password);
+			if($data)
+			{
+				header("location:account.php?login=failed");
+			}
+			else
+			{
+				header("location:account.php?login=success");
+			}
 		}
 
 		// Fungsi Sign Up
@@ -70,6 +63,15 @@
 			if ($confirmpassword == $password)
 			{
 				$insert = $this->model->SignUp($fullname,$address,$phone,$email,$username,$password);
+
+				if($insert)
+				{
+					echo "<script>alert('Berhasil!')</script>". $insert;
+				}
+				else
+				{
+					echo "<script>alert('Gagal!')</script>" . $insert;
+				}
 			}
 		}
 		

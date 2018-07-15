@@ -22,10 +22,25 @@ include_once "./assets/view/view_navbar.php";
     switch ($_POST['loginsubmit'])
     {
       case 'signin':
-        $main->IncludeView('account_tabmenu');
-        $main->IncludeView('account_unpaid_order');
+        if(isset($_GET['login']))
+        {
+          switch ($_GET['login'])
+          {
+            case 'success':
+              $main->IncludeView('account_tabmenu');
+              $main->IncludeView('account_unpaid_order');
+              break;
+            case 'failed':
+              $main->IncludeView('account_login');
+              break;
+            default:
+              $main->IncludeView('account_login');
+              break;
+          }
+        }
         break;
-      default:
+      
+      case 'signup':
         $main->IncludeView('account_login');
         break;
     }

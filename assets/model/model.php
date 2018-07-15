@@ -6,50 +6,74 @@
 		{
 			$connect = mysqli_connect("localhost", "root", "", "jual_mobil");
 		}
-		
+
 		function execute($query)
 		{
 			$connect = mysqli_connect("localhost", "root", "", "jual_mobil");
-			/*
-			if(mysqli_query($connect, $query))
-			{
-				echo "<script>alert('Berhasil!')</script>". $query;
-				var_dump($connect);
-			}
-			else
-			{
-				echo "<script>alert('Gagal!')</script>" . $query;
-				var_dump($connect);
-			}
-			*/
+			var_dump($connect);
 			return mysqli_query($connect, $query);
 		}
 		
 		function listcar()
 		{
-			$query = "select * from nama_mobil";
+			$query = "SELECT * FROM nama_mobil";
 			return $this->execute($query);
 		}
 
-		function SignIn($username,$password)
+		function SignIn($username, $password)
 		{
-			$query = "select username_pelanggan,password_pelanggan from pelanggan where username_pelanggan = '$username' and password_pelanggan = '$password'";
+			$query = "SELECT username_pelanggan, password_pelanggan FROM pelanggan WHERE username_pelanggan = '$username' AND password_pelanggan = '$password'";
 			return $this->execute($query);
 		}
-		
-		function SignUp($fullname,$address,$phone,$email,$username,$password)
+
+		function SignUp($fullname, $address, $phone, $email, $username, $password)
 		{
 			$connect = mysqli_connect("localhost", "root", "", "jual_mobil");
-			$_id_temp = mysqli_num_rows(mysqli_query($connect, "SELECT id_pelanggan FROM pelanggan")) + 1;
-			$_id = "C" . date("ymd");
-			if($_id_temp < 10)
+			$result = mysqli_query($connect, "SELECT * FROM pelanggan");
+			$i = 1;
+			$_id_temp = '';
+			$max = mysqli_num_rows(mysqli_query($connect, "SELECT * FROM pelanggan"));
+			// echo $max;
+
+			while ($temp = mysqli_fetch_row($result))
 			{
-				$_id .= "0" . $_id_temp;
+				if($i == $max)
+				{
+					$_id_temp = $temp[0];
+					// echo "<br>" . $_id_temp;
+				}
+				$i++;
+			}
+
+			$_date = strpos($_id_temp, date("ymd"));
+			$_id_temp = str_split($_id_temp);
+			// echo"<br>" . $_id_temp[7] . $_id_temp[8];
+			$num = (int)($_id_temp[7] . $_id_temp[8]);
+			// echo "<br> _date ";
+			// var_dump($_date);
+			$_id = "C" . date("ymd");
+			// echo "<br>" . $_id . "<br>";
+			if($_date != 1)
+			{
+				$_id .= '01';
+				// echo $_id . "<br>";
 			}
 			else
 			{
-				$_id .= $_id_temp;
+				if($num < 9)
+				{
+					$num += 1;
+					$_id .= '0' . $num;
+					// echo $_id . "<br>";
+				} 
+				else
+				{
+					$num += 1;
+					$_id .= $num;
+					// echo $_id . "<br>";
+				}
 			}
+
 			$_fullname = htmlspecialchars($fullname);
 			$_address = htmlspecialchars($address);
 			$_phone = htmlspecialchars($phone);
@@ -59,12 +83,12 @@
 			$query = "INSERT INTO pelanggan VALUES ('$_id','$fullname','$address','$phone','$email','$username','$password')";
 			return $this->execute($query);
 		}
-		
+
 		function fetch($var)
 		{
 			return mysqli_fetch_array($var);
 		}
-		
+
 		function __destruct()
 		{
 		}
