@@ -10,7 +10,7 @@
 		function execute($query)
 		{
 			$connect = mysqli_connect("localhost", "root", "", "jual_mobil");
-			var_dump($connect);
+			// var_dump($connect);
 			return mysqli_query($connect, $query);
 		}
 		
@@ -53,6 +53,7 @@
 			// var_dump($_date);
 			$_id = "C" . date("ymd");
 			// echo "<br>" . $_id . "<br>";
+
 			if($_date != 1)
 			{
 				$_id .= '01';
