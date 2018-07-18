@@ -2,6 +2,7 @@
 <!-- Navbar -->
 <?php
 
+$login = null;
 /*$main->IncludeView('navbar');*/
 require_once "./assets/controller/controller.php";
 
@@ -22,26 +23,21 @@ include_once "./assets/view/view_navbar.php";
     switch ($_POST['loginsubmit'])
     {
       case 'signin':
-        if(isset($_GET['login']))
+        if($login == 1)
         {
-          switch ($_GET['login'])
-          {
-            case 'success':
-              $main->IncludeView('account_tabmenu');
-              $main->IncludeView('account_unpaid_order');
-              break;
-            case 'failed':
-              $main->IncludeView('account_login');
-              break;
-            default:
-              $main->IncludeView('account_login');
-              break;
-          }
+          $main->IncludeView('account_tabmenu');
+          $main->IncludeView('account_unpaid_order');
+          echo $login . "Sign In";
+        }
+        else
+        {
+          $main->IncludeView('account_login');
+          echo $login . "Gagal";
         }
         break;
-      
       case 'signup':
         $main->IncludeView('account_login');
+        echo $login . "Sign Up";
         break;
     }
   }

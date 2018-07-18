@@ -22,8 +22,27 @@
 
 		function SignIn($username, $password)
 		{
-			$query = "SELECT username_pelanggan, password_pelanggan FROM pelanggan WHERE username_pelanggan = '$username' AND password_pelanggan = '$password'";
-			return $this->execute($query);
+			$query = "SELECT * FROM pelanggan WHERE USERNAME_PELANGGAN = '$username'";
+			$result = $this->execute($query);
+
+			var_dump($result);
+
+			if(mysqli_num_rows($result) === 1)
+			{
+				$user = mysqli_fetch_assoc($result);
+
+				var_dump($user);
+
+				if($user['PASSWORD_PELANGGAN'] == $password)
+				{
+					$result = 1;
+				}
+				else
+				{
+					$result = 0;
+				}
+			}
+			return $result;
 		}
 
 		function SignUp($fullname, $address, $phone, $email, $username, $password)

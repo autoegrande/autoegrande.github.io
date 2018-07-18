@@ -17,7 +17,7 @@
 
 		function MovePage($page)
 		{
-			header("location:" . $page . ".php");
+			header("Location:" . $page . ".php");
 		}
 
 		/* Pindah Halaman */
@@ -38,15 +38,11 @@
 		{
 			$username = $_POST['loginusername'];
 			$password = $_POST['loginpassword'];
-			$data = $this->model->SignIn($username, $password);
-			if($data)
-			{
-				header("location:account.php?login=failed");
-			}
-			else
-			{
-				header("location:account.php?login=success");
-			}
+			$temp = $this->model->SignIn($username, $password);
+			$GLOBALS['login'] = $temp;
+			echo "<br>";
+			var_dump($GLOBALS['login']);
+			//header("Location:account.php");
 		}
 
 		// Fungsi Sign Up
@@ -63,7 +59,7 @@
 			if ($confirmpassword == $password)
 			{
 				$insert = $this->model->SignUp($fullname,$address,$phone,$email,$username,$password);
-
+				/*
 				if($insert)
 				{
 					echo "<script>alert('Berhasil!')</script>". $insert;
@@ -72,6 +68,7 @@
 				{
 					echo "<script>alert('Gagal!')</script>" . $insert;
 				}
+				*/
 			}
 		}
 		
