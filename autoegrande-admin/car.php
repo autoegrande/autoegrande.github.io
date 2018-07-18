@@ -1,5 +1,5 @@
 <!-- Footer -->
-<?php include_once "../view_navbar.php"; ?>
+<?php include_once "view_navbar.php"; ?>
 <!-- Footer -->
 
 
@@ -10,11 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="judul">		
-		<h1>MY CAR</h1>
-	</div>
-	<br/>
-
 	<?php 
 	if(isset($_GET['pesan'])){
 		$pesan = $_GET['pesan'];

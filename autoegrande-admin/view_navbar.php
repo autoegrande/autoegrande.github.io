@@ -23,7 +23,7 @@
     		window.location="assets/view/view_account_login.php";
     	}
     	function car(){
-    		window.location="car/car.php";
+    		window.location="car.php";
     	}
     	function rent(){
     		window.location="";
