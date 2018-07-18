@@ -1,5 +1,5 @@
 <!-- Footer -->
-<?php include_once "./assets/view/view_navbar.php"; ?>
+<?php include_once "view_navbar.php"; ?>
 <!-- Footer -->
 
 <?php 

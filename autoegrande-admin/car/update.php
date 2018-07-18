@@ -1,0 +1,13 @@
+<?php 
+
+include 'koneksi.php';
+$ID_MOBIL = $_POST['ID_MOBIL'];
+$ID_MEREK_MOBIL = $_POST['ID_MEREK_MOBIL'];
+$MOBIL = $_POST['MOBIL'];
+$HARGA_MOBIL= $_POST['HARGA_MOBIL'];
+$SPESIFIKASI = $_POST['SPESIFIKASI'];
+$conn->query("UPDATE nama_mobil SET ID_MOBIL='$ID_MOBIL', ID_MEREK_MOBIL='$ID_MEREK_MOBIL', MOBIL='$MOBIL' , HARGA_MOBIL='$HARGA_MOBIL', SPESIFIKASI='$SPESIFIKASI' WHERE ID_MOBIL='$ID_MOBIL'");
+
+header("location:car.php?pesan=update");
+
+?>
