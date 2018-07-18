@@ -426,4 +426,9 @@ footer .footer-website
 	background-color: #6D6D6D;
 }
 
+footer .footer-website p
+{
+	margin-bottom: 0;
+}
+
 /* Footer */
