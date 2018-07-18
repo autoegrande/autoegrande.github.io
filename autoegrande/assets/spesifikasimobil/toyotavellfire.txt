@@ -1,0 +1,26 @@
+Specifications of Toyota Vellfire
+Machine
+2AR-FE Engine Series
+2AR-FE Engine Type, In-Line 4 Cylinders, 16-valve, DOHC, Dual VVT-i
+Cylinder Contents (Cc) 2,494
+X Diameter Step (Mm) 90.0 x 98.0
+Maximum Power (Ps / Rpm) 180 / 6,000
+Maximum Torque 23.9 / 4,100 (Kgm / Rpm)
+EFI Fuel Intrusion System
+Tank Capacity (Liter) 75
+Dimensions
+Length 4.93
+Width 1850
+High 1895
+Wheelbase Spacing 3000
+Distance of Front Pijak 1575
+Rear-Back Distance 1570
+Lowest Distance 160
+Chassis
+CVT Transmission
+MacPherson Strut with Torsion Bar Front Suspension
+Double Wishbone with Double Suspension with Torsion Bar
+Front Ventilated Disc Brakes
+Rear Brake Ventilated Disc
+Steering Gear Rack and Pinion with EPS
+Size of Tires 235/50 / R18
