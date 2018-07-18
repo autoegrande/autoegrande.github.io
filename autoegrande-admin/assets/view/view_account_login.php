@@ -1,3 +1,7 @@
+<!-- Footer -->
+<?php include_once "view_navbar.php"; ?>
+<!-- Footer -->
+
 <?php 
 
 $formSignUp = 
@@ -136,3 +140,7 @@ $formSignIn =
 
   </div>
 </section>
+
+<!-- Footer -->
+<?php include_once "./assets/view/view_footer.php"; ?>
+<!-- Footer -->

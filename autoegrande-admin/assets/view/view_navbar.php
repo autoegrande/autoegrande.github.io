@@ -18,7 +18,17 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="css/style.css" rel="stylesheet">
-    
+    <script type="text/javascript">
+    	function sales(){
+    		window.location="./assets/view/view_account_login.php";
+    	}
+    	function car(){
+    		window.location="./view_list.php";
+    	}
+    	function rent(){
+    		window.location="";
+    	}
+    </script>
   </head>
   <body>
 
@@ -42,10 +52,9 @@
 
 					<div class="collapse navbar-collapse" id="autoegrande-collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li><button type="submit" class="btn btn-default navbar-btn" name="navbarbtn" value="account">ACCOUNT</button></li>
-							<li><button type="submit" class="btn btn-default navbar-btn" name="navbarbtn" value="chart">CHART</button></li>
-							<li><button type="submit" class="btn btn-default navbar-btn" name="navbarbtn" value="carlist">CAR LIST</button></li>
-							<li><button type="submit" class="btn btn-default navbar-btn" name="navbarbtn" value="rent">RENT GARAGE</button></li>
+							<li><button type="button" class="btn btn-default navbar-btn" name="navbarbtn" value="sales" onclick="sales()">SALES</button></li>
+							<li><button type="button" class="btn btn-default navbar-btn" name="navbarbtn" value="car" onclick="car()">CAR</button></li>
+							<li><button type="button" class="btn btn-default navbar-btn" name="navbarbtn" value="rent" onclick="rent()">RENT GARAGE</button></li>
 							<li>
 								<div class="navbar-form navbar-left">
 									<div class="form-group row">
