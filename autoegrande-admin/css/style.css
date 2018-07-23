@@ -201,6 +201,11 @@ section#accountPage ul li
 	margin: 51% 0 51% 0;
 }
 
+td.td-space
+{
+	width: 128px;
+}
+
 /* Account Info */
 
 /* Account Identity */
@@ -416,6 +421,7 @@ section#chartPayNow table td button.btn-default
 
 footer .footer-website
 {
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;

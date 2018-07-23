@@ -1,3 +1,7 @@
+<!-- Footer -->
+<?php include_once "assets/view/view_navbar.php"; ?>
+<!-- Footer -->
+
 <?php 
 
 $carList =
@@ -152,3 +156,7 @@ $carList =
 </section>
 
 <!-- Car List -->
+
+<!-- Footer -->
+<?php include_once "assets/view/view_footer.php"; ?>
+<!-- Footer -->

@@ -1,5 +1,5 @@
 <!-- Footer -->
-<?php include_once "view_navbar.php"; ?>
+<?php include_once "./assets/view/view_navbar.php"; ?>
 <!-- Footer -->
 
 <?php 
@@ -32,7 +32,7 @@ $formSignIn =
 
     <!-- Sign In Area -->
 
-    <form action="" method="POST" id="formSignIn">
+    <form action="login.php" method="POST" id="formSignIn">
       <div class="container" id="signIn">
 
         <div class="col-sm-4 col-sm-offset-4 loginTitle">
@@ -68,3 +68,19 @@ $formSignIn =
 <!-- Footer -->
 <?php include_once "./assets/view/view_footer.php"; ?>
 <!-- Footer -->
+
+  <!-- cek pesan notifikasi -->
+  <?php 
+
+
+  if(isset($_GET['pesan'])){
+    if($_GET['pesan'] == "gagal"){
+      echo "Login gagal! username dan password salah!";
+    }else if($_GET['pesan'] == "logout"){
+      echo "Anda telah berhasil logout";
+    }else if($_GET['pesan'] == "belum_login"){
+      echo "Anda harus login untuk mengakses halaman admin";
+    }
+  }
+  ?>
+

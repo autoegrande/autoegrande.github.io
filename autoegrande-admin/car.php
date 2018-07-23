@@ -1,5 +1,5 @@
 <!-- Footer -->
-<?php include_once "view_navbar.php"; ?>
+<?php include_once "./assets/view/view_navbar.php"; ?>
 <!-- Footer -->
 
 
@@ -10,20 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<?php 
-	if(isset($_GET['pesan'])){
-		$pesan = $_GET['pesan'];
-		if($pesan == "input"){
-			echo "Data berhasil di input.";
-		}else if($pesan == "update"){
-			echo "Data berhasil di update.";
-		}else if($pesan == "hapus"){
-			echo "Data berhasil di hapus.";
-		}
-	}
-	?>
+	
 	<br/>
-	<a class="tombol" href="input.php">+ Tambah Data Baru</a>
+	<button type="button" class="btn btn-default navbar-btn" name="navbarbtn" value="car" onclick="window.location='input.php'">Tambah Data Mobil</button>
 
 	<h3>Data user</h3>
 	<table border="1" class="table">
