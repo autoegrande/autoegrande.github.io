@@ -20,7 +20,7 @@
     <link href="css/style.css" rel="stylesheet">
     <script type="text/javascript">
     	function sales(){
-    		window.location="./assets/view/view_account_login.php";
+    		window.location="./sales.php";
     	}
     	function car(){
     		window.location="./car.php";

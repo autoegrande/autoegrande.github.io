@@ -423,7 +423,7 @@ section#chartPayNow table td button.btn-default
 
 footer .footer-website
 {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;

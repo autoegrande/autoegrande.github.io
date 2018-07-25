@@ -1,0 +1,41 @@
+Ferrari LaFerrari Specifications
+VEHICLE TYPE:
+
+mid-engine, rear-wheel-drive, 2-passenger, 2-door coupe
+
+
+ENGINE TYPE:
+
+DOHC 48-valve 6.3-liter V-12, 789 hp, 516 lb-ft; AC permanent magnet synchronous electric motor, 161 hp, 199 lb-ft; combined system, 950 hp; 2.2-kWh lithium-ion battery pack
+
+
+TRANSMISSION:
+
+7-speed dual-clutch automatic with manual shifting mode
+
+
+DIMENSIONS:
+
+Wheelbase: 104.3 in
+Length: 185.1 in
+Width: 78.4 in Height: 43.9 in
+Curb weight: 3489 lb
+
+
+C/D TEST RESULTS:
+
+Zero to 60 mph: 2.5 sec
+Zero to 100 mph: 4.8 sec
+Zero to 130 mph: 7.5 sec
+Zero to 150 mph: 9.8 sec
+Rolling start, 5-60 mph: 3.0 sec
+Top gear, 30-50 mph: 1.5 sec
+Top gear, 50-70 mph: 1.6 sec
+Standing ¼-mile: 9.8 sec @ 150 mph
+Top speed (mfr's est): 218 mph
+Braking, 70-0 mph: 136 ft
+Roadholding, 300-ft-dia skidpad: N/A g
+
+
+FUEL ECONOMY:
+EPA city/highway driving: 12/16 mpg

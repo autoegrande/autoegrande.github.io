@@ -1,0 +1,70 @@
+Dimension
+Length	4,599mm
+Width (including mirrors)	2,173mm
+Height	1,724mm
+Seats	5
+Doors	5
+Luggage Capacity (Seats Up)	981l
+Gross Vehicle Weight	2,380kg
+Wheelbase	2,741mm
+Minimum Kerbweight	1,732kg
+Max. Roof Load	75kg
+Max. Towing Weight - Braked	1,800kg
+Max. Towing Weight - Unbraked	750kg
+Max. Loading Weight	648kg
+Tyre Size Rear	235/60R18
+Tyre Size Spare	Tyre Repair KIT
+Wheel Type	18" Alloy
+
+Engine
+Top speed	112Mph
+0–62	10.00s
+Engine capacity	1,999cc
+Fuel type	Diesel
+Transmission	Manual
+Engine Power - BHP	150bhp
+Engine Power - KW	110kW
+Engine Power - RPM	3,500rpm
+Engine Torque - LB·FT	280lb·ft
+Engine Torque - NM	380Nm
+Cylinders - Bore	83mm
+Cylinders - Stroke	92mm
+CO2	123g/km
+Standard Euro Emissions	Euro 6
+Fuel Tank Capacity	54l
+EC Urban	51mpg
+EC Extra Urban	67mpg
+EC Combined	60.1mpg
+Cylinders	4
+Cylinder Layout	In-Line
+Number of Valves	16
+Camshaft	DOHC
+Drive train	Front Wheel Drive
+Fuel delivery	Turbo
+Catalytic Convertor	
+Engine Layout	Front Transverse
+Compression Ratio	15.5:1
+Turning Circle - Kerb to Kerb	11.67m
+
+Option
+Wheel Style	5 Split Spoke - Style 518
+Alloys?	
+Space Saver?	
+Special Edition	
+
+Ownership
+Insurance Group	24E
+Standard manufacturers warranty - Years	3
+Standard manufacturers warranty - Mileage	60,000
+Service Interval Mileage	21,000
+Service Interval Frequency - Months	24
+Manufacturers Paintwork Guarantee - Years	6
+Manufacturers Corrosion Perforation Guarantee - Years	6
+
+Safety
+NCAP Adult Occupant Protection	93%
+NCAP Child Occupant Protection	83%
+NCAP Pedestrian Protection	69%
+NCAP Safety Assist	82%
+NCAP Overall Rating	5
+Vehicle Homologation Class	M1

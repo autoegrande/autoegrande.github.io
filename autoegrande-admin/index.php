@@ -45,7 +45,7 @@ $formSignIn =
 
           <div class="col-sm-6 col-sm-offset-3">
             <label for="<?= $formSignIn[$num]['id']; ?>"><?= $formSignIn[$num]['name']; ?></label>
-            <input type="<?= $formSignIn[$num]['type']; ?>" class="form-control" placeholder="" id="<?= $formSignIn[$num]['id']; ?>" name="<?= $formSignIn[$num]['id']; ?>" value="" required>
+            <input type="<?= $formSignIn[$num]['type']; ?>" class="form-control" placeholder="" id="<?= $formSignIn[$num]['id']; ?>id" name="<?= $formSignIn[$num]['id']; ?>" value="" required>
           </div>
 
         <?php endfor; ?>
@@ -71,7 +71,6 @@ $formSignIn =
 
   <!-- cek pesan notifikasi -->
   <?php 
-
 
   if(isset($_GET['pesan'])){
     if($_GET['pesan'] == "gagal"){
