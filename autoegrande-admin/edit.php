@@ -29,7 +29,7 @@
 			</tr>	
 			<tr>
 				<td class="td-space">NAMA MOBIL</td>
-				<td><input type="text" name="MOBIL" value="<?php echo $data['MOBIL'] ?>"></td>					
+				<td><input type="text" name="NAMA_MOBIL" value="<?php echo $data['NAMA_MOBIL'] ?>"></td>					
 			</tr>	
 			<tr>
 				<tr>

@@ -12,6 +12,8 @@ body
 {
 	margin: 42px 0 0 0;
 	padding: 0 0 0 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 /* Body */
@@ -421,7 +423,7 @@ section#chartPayNow table td button.btn-default
 
 footer .footer-website
 {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;

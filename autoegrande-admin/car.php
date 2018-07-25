@@ -2,15 +2,11 @@
 <?php include_once "./assets/view/view_navbar.php"; ?>
 <!-- Footer -->
 
-
-<!DOCTYPE html>
-<html>
 <head>
 	<title>Car List AUTO E GRANDE</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	
+
 	<br/>
 	<button type="button" class="btn btn-default navbar-btn" name="navbarbtn" value="car" onclick="window.location='input.php'">Tambah Data Mobil</button>
 
@@ -35,7 +31,7 @@
 			<td><?php echo $nomor++; ?></td>
 			<td><?php echo $data['ID_MOBIL']; ?></td>
 			<td><?php echo $data['ID_MEREK_MOBIL']; ?></td>
-			<td><?php echo $data['MOBIL']; ?></td>
+			<td><?php echo $data['NAMA_MOBIL']; ?></td>
 			<td><?php echo $data['HARGA_MOBIL']; ?></td>
 			<td><?php echo $data['SPESIFIKASI']; ?></td>
 			<td>
@@ -45,5 +41,5 @@
 		</tr>
 		<?php } ?>
 	</table>
-</body>
-</html>
+<div class="space-navbar"></div>
+<?php include_once "./assets/view/view_footer.php"; ?>

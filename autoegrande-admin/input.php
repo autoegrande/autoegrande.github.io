@@ -19,7 +19,7 @@
 					</tr>	
 					<tr>
 						<td class="td-space">Nama Mobil</td>
-						<td><input type="text" name="MOBIL"></td>					
+						<td><input type="text" name="NAMA_MOBIL"></td>					
 					</tr>	
 					<tr>
 						<tr>

@@ -2,7 +2,7 @@
 include 'koneksi.php';
 $idmobil = $_POST['ID_MOBIL'];
 $idmerekmobil = $_POST['ID_MEREK_MOBIL'];
-$namamobil = $_POST['MOBIL'];
+$namamobil = $_POST['NAMA_MOBIL'];
 $hargamobil = $_POST['HARGA_MOBIL'];
 $Spesifikasi = $_POST['SPESIFIKASI'];
 
