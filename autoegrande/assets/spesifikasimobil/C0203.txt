@@ -1,0 +1,59 @@
+Powertrain
+Transmission	8-speed automatic
+Drivetrain	AWD
+CO₂ emissions	7,420 kg/year
+Engine	V8 5,7 l
+Power	383 hp @ 5,600 rpm (286 kW)
+Torque	403 lb·ft @ 3,600 rpm (546 N·m)
+Induction	Atmospheric
+Bore	94 mm
+Stroke	102 mm
+Fuel type	Premium
+Vehicle type / Category
+Vehicle type	SUV
+Category	Full Size SUV
+Assembly	Tahara, JP
+Generation	3
+Fuel efficiency / Autonomy
+City	18.2 L/100km
+Highway	12.8 L/100km
+Combined	15.8 L/100km
+Autonomy	588 km
+Infotainment / Connectivity
+Apple CarPlay compatible	no
+Android Auto compatible	no
+Tires / Suspension / Brakes / Safety
+Steering	rack and pinion, variable assist
+Traction control	yes
+Stability control	yes
+Seat belts	8
+Airbags	10
+Front suspension	Independent, pneumatic, double wishbone
+Rear suspension	live axle with coil and pneumatic springs
+Front brakes	disc (ABS)
+Rear brakes	disc (ABS)
+Front tires	P285/50R20
+Rear tires	P285/50R20
+Dimensions / Weight
+Length	5,080 mm (200″)
+Width	1,980 mm (78″)
+Height	1,910 mm (75″)
+Wheelbase	2,850 mm (112″)
+Front track	1,650 mm (65″)
+Rear track	1,650 mm (65″)
+Weight	2,680 kg (5,908 lb)
+Weight distribution (front-rear)	51% - 49%
+Capacities
+Passengers	8
+Fuel tank	93 l (20 gal)
+Trunk	between 259 l and 1,267 l (9 to 45 cu ft)
+Towing capacity	3,175 kg (7,000 lb)
+Performance
+Power to weight ratio	106.5 W/kg
+0-100 km/h	7.6 s (estimated)
+80-120 km/h	5.7 s (estimated)
+Top speed	220 km/h (137 mph) (manufacturer)
+Braking distance	43 m
+Warranty
+Base warranty	4 years/80,000 km
+Powertrain warranty	6 years/110,000 km

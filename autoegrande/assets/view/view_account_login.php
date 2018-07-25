@@ -132,27 +132,6 @@ $formSignIn =
       </div>
     </form>
 
-    <?php
-
-    if(isset($_POST['loginsubmit']))
-    {
-      $main = new controller();
-      switch ($_POST['loginsubmit']) 
-      {
-        case 'signin':
-            $main->Login();
-          break;
-        case 'signup':
-            $main->SignUp();
-          break;
-        default:
-            echo "Gagal";
-          break;
-      }
-    }
-
-    ?>
-
     <!-- Sign In Area -->
 
   </div>

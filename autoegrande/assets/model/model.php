@@ -1,4 +1,5 @@
 <?php
+
 	class model
 	{
 		// Instansiasi
@@ -20,29 +21,82 @@
 			return $this->execute($query);
 		}
 
+		function DataSell($day)
+		{
+			$query = "SELECT * FROM history_penjualan WHERE H_TANGGAL_JUAL = '$day'";
+			return $this->execute($query);
+		}
+
+		function SelectBrand()
+		{
+			$query = "SELECT * FROM merek_mobil";
+			$cars = $this->execute($query);
+			while($datum = mysqli_fetch_assoc($cars))
+			{
+				$data[] = $datum['NAMA_MEREK_MOBIL'];
+			}
+			return $data;
+		}
+
+		function SelectCar()
+		{
+			$cars = [];
+			$data = [];
+			$i = 0;
+			$result = $this->execute("SELECT * FROM merek_mobil");
+			if(mysqli_num_rows($result) > 0)
+			{
+				while($datum = mysqli_fetch_assoc($result))
+				{
+					$cars[] = $datum['ID_MEREK_MOBIL'];
+					// echo "<script>alert('" . $cars[$i] . "')</script>";
+					$i++;
+				}
+			}
+			else
+			{
+				echo "<script>alert('Kosong')</script>";
+			}
+			$i = 0;
+
+			while($i < count($cars))
+			{
+				$data[] = mysqli_num_rows($this->execute("SELECT * FROM nama_mobil WHERE id_merek_mobil = '$cars[$i]'"));
+					// echo "<script>alert('" . $data[$i] . "')</script>";
+				$i++;
+			}
+
+			return $data;
+		}
+
 		function SignIn($username, $password)
 		{
 			$query = "SELECT * FROM pelanggan WHERE USERNAME_PELANGGAN = '$username'";
 			$result = $this->execute($query);
-
-			var_dump($result);
+			$value = '';
 
 			if(mysqli_num_rows($result) === 1)
 			{
 				$user = mysqli_fetch_assoc($result);
 
-				var_dump($user);
+				// echo "<br> _user <br>";
+				// var_dump($user);
 
-				if($user['PASSWORD_PELANGGAN'] == $password)
+				if($user['PASSWORD_PELANGGAN'] === $password)
 				{
-					$result = 1;
+					$value = $username;
 				}
 				else
 				{
-					$result = 0;
+					$value = null;
 				}
 			}
-			return $result;
+			else
+			{
+				$value = null;
+			}
+			// echo "<script>alert('Berhasil!" . $value . "')</script>";
+			return $value;
 		}
 
 		function SignUp($fullname, $address, $phone, $email, $username, $password)

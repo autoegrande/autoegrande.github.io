@@ -1,11 +1,7 @@
 
 <!-- Navbar -->
 <?php
-
-$login = null;
-/*$main->IncludeView('navbar');*/
 require_once "./assets/controller/controller.php";
-
 $main = new controller();
 
 include_once "./assets/view/view_navbar.php";
@@ -17,28 +13,26 @@ include_once "./assets/view/view_navbar.php";
 	<div class="row">
 
 	<?php
-
-  if(isset($_POST['loginsubmit']))
+  if(isset($_COOKIE["USERNAME_PELANGGAN"]))
   {
-    switch ($_POST['loginsubmit'])
+    if(isset($_POST['loginsubmit']))
     {
-      case 'signin':
-        if($login == 1)
-        {
+      switch($_COOKIE["USERNAME_PELANGGAN"])
+      {
+        case $_POST['loginusername']:
           $main->IncludeView('account_tabmenu');
-          $main->IncludeView('account_unpaid_order');
-          echo $login . "Sign In";
-        }
-        else
-        {
+          $main->IncludeView('account_identity');
+          echo "<script>alert('Berhasil Login!" . $_COOKIE["USERNAME_PELANGGAN"] . "')</script>";
+        break;
+        default:
           $main->IncludeView('account_login');
-          echo $login . "Gagal";
-        }
+          echo "<script>alert('Gagal Login!" . $_COOKIE["USERNAME_PELANGGAN"] . "')</script>";
         break;
-      case 'signup':
-        $main->IncludeView('account_login');
-        echo $login . "Sign Up";
-        break;
+      }
+    }
+    else
+    {
+      $main->IncludeView('account_login');
     }
   }
   else

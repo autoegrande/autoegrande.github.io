@@ -26,6 +26,12 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="item active">
+            <?php include_once "./assets/view/view_diagram_cars.php"; ?>
+            <div class="carousel-caption">
+            </div>      
+          </div>
+          
+          <div class="item">
             <img src="assets/images/jumbotron/laferrari.png" alt="Ferrari">
             <div class="carousel-caption">
               <h3>Ferrari LaFerrari</h3>
@@ -57,23 +63,17 @@
             </div>      
           </div>
 
-          <div class="item">
-            <?php include_once "./assets/view/view_diagram_omset.php"; ?>
-            <div class="carousel-caption">
-            </div>      
-          </div>
-
         </div>
 
         <!-- Wrapper for slides -->
 
         <!-- Gallery Navigation -->
 
-        <a class="left carousel-control" href="?i=chartCars" data-slide="prev">
+        <a class="left carousel-control" href="#galleryTop" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#galleryTop" data-slide="next">
+        <a class="right carousel-control" href="?i=chartOmset" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right"></span>
           <span class="sr-only">Next</span>
         </a>

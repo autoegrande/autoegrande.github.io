@@ -4,29 +4,7 @@ require_once "./assets/controller/controller.php";
 
 $main = new controller();
 // Kondisi untuk menampilkan halaman web yang diminta
-if(isset($_COOKIE["USERNAME_PELANGGAN"]))
-{
-	if(!isset($_POST['loginsubmit']))
-	{
-		$main->IncludeView('account');
-	}
-	else
-	{
-	  switch($_POST['loginsubmit'])
-	  {
-	    case 'signin':
-	      $main->Login();
-	    break;
-	    case 'signup':
-	      $main->SignUp();
-	    break;
-	    default:
-		  	$main->IncludeView('account');
-	  	break;
-	  }
-	}
-}
-else if(isset($_POST['navbarbtn']))
+if(isset($_POST['navbarbtn']))
 {
 	switch ($_POST['navbarbtn']) 
 	{
@@ -46,7 +24,7 @@ else if(isset($_POST['navbarbtn']))
 }
 else
 {
-  $main->IncludeView('account');
+	$main->IncludeView('index');
 }
 
 ?>

@@ -1,5 +1,6 @@
 <?php
 
+	session_start();
 	// Include class model
 	require_once "./assets/model/model.php";
 
@@ -31,6 +32,47 @@
 
 		/* Include View */
 		
+		/* Data Chart */
+
+		function DataForDiagram($dataToDisplay, $name)
+		{
+			$data = [];
+			switch ($name)
+			{
+				case 'omset':
+					$i = 0;
+					while($i < $dataToDisplay)
+					{
+						$temp = date('dmY', time()-60*60*24+$i);
+						$data[] = $this->model->DataSell($temp);
+						$i++;
+					}
+					$data[] = "Omset";
+				break;
+				case 'days':
+					$i = 0;
+					while($i < $dataToDisplay)
+					{
+						$data[] = date('d-M-Y', time()-60*60*24+$i);
+						$i++;
+					}
+					$data[] = "Days";
+				break;
+				case 'brand':
+					$data = $this->model->SelectBrand();
+				break;
+				case 'car':
+					$data = $this->model->SelectCar();
+				break;
+				default:
+					return "Parameter salah";
+					break;
+			}
+			return $data;
+		}
+
+		/* Data Chart */
+
 		/* Login */
 
 		// Fungsi Sign in
@@ -38,11 +80,10 @@
 		{
 			$username = $_POST['loginusername'];
 			$password = $_POST['loginpassword'];
-			$temp = $this->model->SignIn($username, $password);
-			$GLOBALS['login'] = $temp;
-			echo "<br>";
-			var_dump($GLOBALS['login']);
-			//header("Location:account.php");
+			setcookie("USERNAME_PELANGGAN", $this->model->SignIn($username, $password), time()+60);
+			echo "<script>alert('Berhasil!" . $_COOKIE["USERNAME_PELANGGAN"] . "')</script>";
+			// MovePage("account");
+			// return $temp;
 		}
 
 		// Fungsi Sign Up
